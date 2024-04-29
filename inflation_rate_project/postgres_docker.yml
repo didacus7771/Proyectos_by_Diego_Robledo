@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: inflation_postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - /c/Users/roble/OneDrive/Escritorio/pr/inflation_rate_project/csv:/inflation_csv
+  
+volumes:
+  pgdata:
