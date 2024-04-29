@@ -1,0 +1,11 @@
+configparser
+matplotlib
+missingno
+numpy
+pandas
+pyreadr
+seaborn
+session_info
+pip
+google-api-python-client==1.12.8
+google_auth_oauthlib
