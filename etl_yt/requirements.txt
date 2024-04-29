@@ -1,0 +1,9 @@
+configparser
+matplotlib
+missingno
+numpy
+pandas
+pyreadr
+seaborn
+session_info
+pip
