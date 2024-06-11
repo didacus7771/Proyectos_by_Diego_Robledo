@@ -7,8 +7,11 @@
 28,Burundi,Annual average inflation (consumer prices) rate,2000,25.5,AFR
 29,Cabo Verde,Annual average inflation (consumer prices) rate,2000,-2.4,AFR
 31,Cameroon,Annual average inflation (consumer prices) rate,2000,1.2,AFR
+33,Central African Republic,Annual average inflation (consumer prices) rate,2000,3.4,AFR
 34,Chad,Annual average inflation (consumer prices) rate,2000,3.8,AFR
 38,Comoros,Annual average inflation (consumer prices) rate,2000,5.9,AFR
+39,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2000,550.0,AFR
+40,Republic of Congo,Annual average inflation (consumer prices) rate,2000,0.5,AFR
 47,Djibouti,Annual average inflation (consumer prices) rate,2000,1.2,AFR
 51,Egypt,Annual average inflation (consumer prices) rate,2000,2.8,AFR
 53,Equatorial Guinea,Annual average inflation (consumer prices) rate,2000,4.8,AFR
@@ -16,6 +19,7 @@
 56,Eswatini,Annual average inflation (consumer prices) rate,2000,9.9,AFR
 57,Ethiopia,Annual average inflation (consumer prices) rate,2000,0.7,AFR
 61,Gabon,Annual average inflation (consumer prices) rate,2000,0.5,AFR
+62,Gambia,Annual average inflation (consumer prices) rate,2000,0.9,AFR
 65,Ghana,Annual average inflation (consumer prices) rate,2000,25.1,AFR
 69,Guinea,Annual average inflation (consumer prices) rate,2000,6.8,AFR
 70,Guinea-Bissau,Annual average inflation (consumer prices) rate,2000,8.6,AFR
@@ -39,6 +43,7 @@
 154,Sierra Leone,Annual average inflation (consumer prices) rate,2000,-0.9,AFR
 159,Somalia,Annual average inflation (consumer prices) rate,2000,,AFR
 160,South Africa,Annual average inflation (consumer prices) rate,2000,5.3,AFR
+161,South Sudan,Annual average inflation (consumer prices) rate,2000,,AFR
 164,Sudan,Annual average inflation (consumer prices) rate,2000,7.1,AFR
 172,Tanzania,Annual average inflation (consumer prices) rate,2000,6.0,AFR
 175,Togo,Annual average inflation (consumer prices) rate,2000,1.6,AFR
@@ -54,8 +59,11 @@
 224,Burundi,Annual average inflation (consumer prices) rate,2001,7.9,AFR
 225,Cabo Verde,Annual average inflation (consumer prices) rate,2001,3.7,AFR
 227,Cameroon,Annual average inflation (consumer prices) rate,2001,4.5,AFR
+229,Central African Republic,Annual average inflation (consumer prices) rate,2001,4.1,AFR
 230,Chad,Annual average inflation (consumer prices) rate,2001,12.4,AFR
 234,Comoros,Annual average inflation (consumer prices) rate,2001,5.6,AFR
+235,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2001,357.3,AFR
+236,Republic of Congo,Annual average inflation (consumer prices) rate,2001,0.8,AFR
 243,Djibouti,Annual average inflation (consumer prices) rate,2001,1.9,AFR
 247,Egypt,Annual average inflation (consumer prices) rate,2001,2.4,AFR
 249,Equatorial Guinea,Annual average inflation (consumer prices) rate,2001,8.7,AFR
@@ -63,6 +71,7 @@
 252,Eswatini,Annual average inflation (consumer prices) rate,2001,7.5,AFR
 253,Ethiopia,Annual average inflation (consumer prices) rate,2001,-8.2,AFR
 257,Gabon,Annual average inflation (consumer prices) rate,2001,2.1,AFR
+258,Gambia,Annual average inflation (consumer prices) rate,2001,4.5,AFR
 261,Ghana,Annual average inflation (consumer prices) rate,2001,32.9,AFR
 265,Guinea,Annual average inflation (consumer prices) rate,2001,5.4,AFR
 266,Guinea-Bissau,Annual average inflation (consumer prices) rate,2001,3.3,AFR
@@ -86,6 +95,7 @@
 350,Sierra Leone,Annual average inflation (consumer prices) rate,2001,2.6,AFR
 355,Somalia,Annual average inflation (consumer prices) rate,2001,,AFR
 356,South Africa,Annual average inflation (consumer prices) rate,2001,5.7,AFR
+357,South Sudan,Annual average inflation (consumer prices) rate,2001,,AFR
 360,Sudan,Annual average inflation (consumer prices) rate,2001,1.9,AFR
 368,Tanzania,Annual average inflation (consumer prices) rate,2001,5.1,AFR
 371,Togo,Annual average inflation (consumer prices) rate,2001,5.1,AFR
@@ -101,8 +111,11 @@
 420,Burundi,Annual average inflation (consumer prices) rate,2002,-1.3,AFR
 421,Cabo Verde,Annual average inflation (consumer prices) rate,2002,1.9,AFR
 423,Cameroon,Annual average inflation (consumer prices) rate,2002,2.8,AFR
+425,Central African Republic,Annual average inflation (consumer prices) rate,2002,2.3,AFR
 426,Chad,Annual average inflation (consumer prices) rate,2002,5.2,AFR
 430,Comoros,Annual average inflation (consumer prices) rate,2002,3.6,AFR
+431,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2002,25.3,AFR
+432,Republic of Congo,Annual average inflation (consumer prices) rate,2002,3.0,AFR
 439,Djibouti,Annual average inflation (consumer prices) rate,2002,1.4,AFR
 443,Egypt,Annual average inflation (consumer prices) rate,2002,2.3,AFR
 445,Equatorial Guinea,Annual average inflation (consumer prices) rate,2002,7.6,AFR
@@ -110,6 +123,7 @@
 448,Eswatini,Annual average inflation (consumer prices) rate,2002,11.9,AFR
 449,Ethiopia,Annual average inflation (consumer prices) rate,2002,1.7,AFR
 453,Gabon,Annual average inflation (consumer prices) rate,2002,0.2,AFR
+454,Gambia,Annual average inflation (consumer prices) rate,2002,8.6,AFR
 457,Ghana,Annual average inflation (consumer prices) rate,2002,14.8,AFR
 461,Guinea,Annual average inflation (consumer prices) rate,2002,3.0,AFR
 462,Guinea-Bissau,Annual average inflation (consumer prices) rate,2002,3.3,AFR
@@ -133,6 +147,7 @@
 546,Sierra Leone,Annual average inflation (consumer prices) rate,2002,0.1,AFR
 551,Somalia,Annual average inflation (consumer prices) rate,2002,,AFR
 552,South Africa,Annual average inflation (consumer prices) rate,2002,9.0,AFR
+553,South Sudan,Annual average inflation (consumer prices) rate,2002,,AFR
 556,Sudan,Annual average inflation (consumer prices) rate,2002,22.2,AFR
 564,Tanzania,Annual average inflation (consumer prices) rate,2002,4.6,AFR
 567,Togo,Annual average inflation (consumer prices) rate,2002,2.7,AFR
@@ -148,8 +163,11 @@
 616,Burundi,Annual average inflation (consumer prices) rate,2003,10.6,AFR
 617,Cabo Verde,Annual average inflation (consumer prices) rate,2003,1.2,AFR
 619,Cameroon,Annual average inflation (consumer prices) rate,2003,0.6,AFR
+621,Central African Republic,Annual average inflation (consumer prices) rate,2003,4.4,AFR
 622,Chad,Annual average inflation (consumer prices) rate,2003,-1.8,AFR
 626,Comoros,Annual average inflation (consumer prices) rate,2003,3.7,AFR
+627,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2003,12.8,AFR
+628,Republic of Congo,Annual average inflation (consumer prices) rate,2003,1.7,AFR
 635,Djibouti,Annual average inflation (consumer prices) rate,2003,1.6,AFR
 639,Egypt,Annual average inflation (consumer prices) rate,2003,3.4,AFR
 641,Equatorial Guinea,Annual average inflation (consumer prices) rate,2003,7.3,AFR
@@ -157,6 +175,7 @@
 644,Eswatini,Annual average inflation (consumer prices) rate,2003,7.3,AFR
 645,Ethiopia,Annual average inflation (consumer prices) rate,2003,17.8,AFR
 649,Gabon,Annual average inflation (consumer prices) rate,2003,2.1,AFR
+650,Gambia,Annual average inflation (consumer prices) rate,2003,17.0,AFR
 653,Ghana,Annual average inflation (consumer prices) rate,2003,26.6,AFR
 657,Guinea,Annual average inflation (consumer prices) rate,2003,11.0,AFR
 658,Guinea-Bissau,Annual average inflation (consumer prices) rate,2003,-3.5,AFR
@@ -180,6 +199,7 @@
 742,Sierra Leone,Annual average inflation (consumer prices) rate,2003,4.0,AFR
 747,Somalia,Annual average inflation (consumer prices) rate,2003,,AFR
 748,South Africa,Annual average inflation (consumer prices) rate,2003,5.9,AFR
+749,South Sudan,Annual average inflation (consumer prices) rate,2003,,AFR
 752,Sudan,Annual average inflation (consumer prices) rate,2003,6.5,AFR
 760,Tanzania,Annual average inflation (consumer prices) rate,2003,4.4,AFR
 763,Togo,Annual average inflation (consumer prices) rate,2003,-0.9,AFR
@@ -195,8 +215,11 @@
 812,Burundi,Annual average inflation (consumer prices) rate,2004,8.2,AFR
 813,Cabo Verde,Annual average inflation (consumer prices) rate,2004,-1.9,AFR
 815,Cameroon,Annual average inflation (consumer prices) rate,2004,0.3,AFR
+817,Central African Republic,Annual average inflation (consumer prices) rate,2004,-2.6,AFR
 818,Chad,Annual average inflation (consumer prices) rate,2004,-4.8,AFR
 822,Comoros,Annual average inflation (consumer prices) rate,2004,4.5,AFR
+823,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2004,4.0,AFR
+824,Republic of Congo,Annual average inflation (consumer prices) rate,2004,3.7,AFR
 831,Djibouti,Annual average inflation (consumer prices) rate,2004,2.4,AFR
 835,Egypt,Annual average inflation (consumer prices) rate,2004,8.2,AFR
 837,Equatorial Guinea,Annual average inflation (consumer prices) rate,2004,4.2,AFR
@@ -204,6 +227,7 @@
 840,Eswatini,Annual average inflation (consumer prices) rate,2004,3.5,AFR
 841,Ethiopia,Annual average inflation (consumer prices) rate,2004,3.2,AFR
 845,Gabon,Annual average inflation (consumer prices) rate,2004,0.4,AFR
+846,Gambia,Annual average inflation (consumer prices) rate,2004,14.3,AFR
 849,Ghana,Annual average inflation (consumer prices) rate,2004,12.7,AFR
 853,Guinea,Annual average inflation (consumer prices) rate,2004,17.5,AFR
 854,Guinea-Bissau,Annual average inflation (consumer prices) rate,2004,0.8,AFR
@@ -227,6 +251,7 @@
 938,Sierra Leone,Annual average inflation (consumer prices) rate,2004,12.9,AFR
 943,Somalia,Annual average inflation (consumer prices) rate,2004,,AFR
 944,South Africa,Annual average inflation (consumer prices) rate,2004,1.4,AFR
+945,South Sudan,Annual average inflation (consumer prices) rate,2004,,AFR
 948,Sudan,Annual average inflation (consumer prices) rate,2004,9.7,AFR
 956,Tanzania,Annual average inflation (consumer prices) rate,2004,4.1,AFR
 959,Togo,Annual average inflation (consumer prices) rate,2004,0.7,AFR
@@ -242,8 +267,11 @@
 1008,Burundi,Annual average inflation (consumer prices) rate,2005,13.3,AFR
 1009,Cabo Verde,Annual average inflation (consumer prices) rate,2005,0.4,AFR
 1011,Cameroon,Annual average inflation (consumer prices) rate,2005,2.0,AFR
+1013,Central African Republic,Annual average inflation (consumer prices) rate,2005,2.9,AFR
 1014,Chad,Annual average inflation (consumer prices) rate,2005,4.4,AFR
 1018,Comoros,Annual average inflation (consumer prices) rate,2005,3.0,AFR
+1019,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2005,21.5,AFR
+1020,Republic of Congo,Annual average inflation (consumer prices) rate,2005,2.5,AFR
 1027,Djibouti,Annual average inflation (consumer prices) rate,2005,3.3,AFR
 1031,Egypt,Annual average inflation (consumer prices) rate,2005,8.7,AFR
 1033,Equatorial Guinea,Annual average inflation (consumer prices) rate,2005,5.6,AFR
@@ -251,6 +279,7 @@
 1036,Eswatini,Annual average inflation (consumer prices) rate,2005,4.9,AFR
 1037,Ethiopia,Annual average inflation (consumer prices) rate,2005,11.7,AFR
 1041,Gabon,Annual average inflation (consumer prices) rate,2005,1.2,AFR
+1042,Gambia,Annual average inflation (consumer prices) rate,2005,5.0,AFR
 1045,Ghana,Annual average inflation (consumer prices) rate,2005,15.1,AFR
 1049,Guinea,Annual average inflation (consumer prices) rate,2005,31.4,AFR
 1050,Guinea-Bissau,Annual average inflation (consumer prices) rate,2005,3.4,AFR
@@ -274,6 +303,7 @@
 1134,Sierra Leone,Annual average inflation (consumer prices) rate,2005,13.7,AFR
 1139,Somalia,Annual average inflation (consumer prices) rate,2005,,AFR
 1140,South Africa,Annual average inflation (consumer prices) rate,2005,3.4,AFR
+1141,South Sudan,Annual average inflation (consumer prices) rate,2005,,AFR
 1144,Sudan,Annual average inflation (consumer prices) rate,2005,8.5,AFR
 1152,Tanzania,Annual average inflation (consumer prices) rate,2005,4.4,AFR
 1155,Togo,Annual average inflation (consumer prices) rate,2005,5.3,AFR
@@ -289,8 +319,11 @@
 1204,Burundi,Annual average inflation (consumer prices) rate,2006,2.7,AFR
 1205,Cabo Verde,Annual average inflation (consumer prices) rate,2006,4.8,AFR
 1207,Cameroon,Annual average inflation (consumer prices) rate,2006,4.9,AFR
+1209,Central African Republic,Annual average inflation (consumer prices) rate,2006,6.9,AFR
 1210,Chad,Annual average inflation (consumer prices) rate,2006,9.6,AFR
 1214,Comoros,Annual average inflation (consumer prices) rate,2006,3.4,AFR
+1215,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2006,12.8,AFR
+1216,Republic of Congo,Annual average inflation (consumer prices) rate,2006,4.7,AFR
 1223,Djibouti,Annual average inflation (consumer prices) rate,2006,3.5,AFR
 1227,Egypt,Annual average inflation (consumer prices) rate,2006,4.3,AFR
 1229,Equatorial Guinea,Annual average inflation (consumer prices) rate,2006,4.5,AFR
@@ -298,6 +331,7 @@
 1232,Eswatini,Annual average inflation (consumer prices) rate,2006,5.2,AFR
 1233,Ethiopia,Annual average inflation (consumer prices) rate,2006,13.6,AFR
 1237,Gabon,Annual average inflation (consumer prices) rate,2006,-1.4,AFR
+1238,Gambia,Annual average inflation (consumer prices) rate,2006,2.1,AFR
 1241,Ghana,Annual average inflation (consumer prices) rate,2006,11.7,AFR
 1245,Guinea,Annual average inflation (consumer prices) rate,2006,34.7,AFR
 1246,Guinea-Bissau,Annual average inflation (consumer prices) rate,2006,2.0,AFR
@@ -321,6 +355,7 @@
 1330,Sierra Leone,Annual average inflation (consumer prices) rate,2006,10.5,AFR
 1335,Somalia,Annual average inflation (consumer prices) rate,2006,,AFR
 1336,South Africa,Annual average inflation (consumer prices) rate,2006,4.7,AFR
+1337,South Sudan,Annual average inflation (consumer prices) rate,2006,,AFR
 1340,Sudan,Annual average inflation (consumer prices) rate,2006,7.2,AFR
 1348,Tanzania,Annual average inflation (consumer prices) rate,2006,7.3,AFR
 1351,Togo,Annual average inflation (consumer prices) rate,2006,1.1,AFR
@@ -336,8 +371,11 @@
 1400,Burundi,Annual average inflation (consumer prices) rate,2007,8.4,AFR
 1401,Cabo Verde,Annual average inflation (consumer prices) rate,2007,4.4,AFR
 1403,Cameroon,Annual average inflation (consumer prices) rate,2007,1.1,AFR
+1405,Central African Republic,Annual average inflation (consumer prices) rate,2007,0.9,AFR
 1406,Chad,Annual average inflation (consumer prices) rate,2007,-7.4,AFR
 1410,Comoros,Annual average inflation (consumer prices) rate,2007,4.5,AFR
+1411,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2007,16.7,AFR
+1412,Republic of Congo,Annual average inflation (consumer prices) rate,2007,2.6,AFR
 1419,Djibouti,Annual average inflation (consumer prices) rate,2007,5.9,AFR
 1423,Egypt,Annual average inflation (consumer prices) rate,2007,10.9,AFR
 1425,Equatorial Guinea,Annual average inflation (consumer prices) rate,2007,2.8,AFR
@@ -345,6 +383,7 @@
 1428,Eswatini,Annual average inflation (consumer prices) rate,2007,8.1,AFR
 1429,Ethiopia,Annual average inflation (consumer prices) rate,2007,17.2,AFR
 1433,Gabon,Annual average inflation (consumer prices) rate,2007,-1.0,AFR
+1434,Gambia,Annual average inflation (consumer prices) rate,2007,5.4,AFR
 1437,Ghana,Annual average inflation (consumer prices) rate,2007,10.7,AFR
 1441,Guinea,Annual average inflation (consumer prices) rate,2007,22.9,AFR
 1442,Guinea-Bissau,Annual average inflation (consumer prices) rate,2007,4.6,AFR
@@ -368,6 +407,7 @@
 1526,Sierra Leone,Annual average inflation (consumer prices) rate,2007,17.0,AFR
 1531,Somalia,Annual average inflation (consumer prices) rate,2007,,AFR
 1532,South Africa,Annual average inflation (consumer prices) rate,2007,7.1,AFR
+1533,South Sudan,Annual average inflation (consumer prices) rate,2007,,AFR
 1536,Sudan,Annual average inflation (consumer prices) rate,2007,14.8,AFR
 1544,Tanzania,Annual average inflation (consumer prices) rate,2007,7.0,AFR
 1547,Togo,Annual average inflation (consumer prices) rate,2007,0.4,AFR
@@ -383,8 +423,11 @@
 1596,Burundi,Annual average inflation (consumer prices) rate,2008,24.4,AFR
 1597,Cabo Verde,Annual average inflation (consumer prices) rate,2008,6.8,AFR
 1599,Cameroon,Annual average inflation (consumer prices) rate,2008,5.3,AFR
+1601,Central African Republic,Annual average inflation (consumer prices) rate,2008,9.2,AFR
 1602,Chad,Annual average inflation (consumer prices) rate,2008,8.3,AFR
 1606,Comoros,Annual average inflation (consumer prices) rate,2008,4.8,AFR
+1607,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2008,18.0,AFR
+1608,Republic of Congo,Annual average inflation (consumer prices) rate,2008,6.0,AFR
 1615,Djibouti,Annual average inflation (consumer prices) rate,2008,8.7,AFR
 1619,Egypt,Annual average inflation (consumer prices) rate,2008,11.7,AFR
 1621,Equatorial Guinea,Annual average inflation (consumer prices) rate,2008,4.7,AFR
@@ -392,6 +435,7 @@
 1624,Eswatini,Annual average inflation (consumer prices) rate,2008,12.7,AFR
 1625,Ethiopia,Annual average inflation (consumer prices) rate,2008,44.4,AFR
 1629,Gabon,Annual average inflation (consumer prices) rate,2008,5.3,AFR
+1630,Gambia,Annual average inflation (consumer prices) rate,2008,4.5,AFR
 1633,Ghana,Annual average inflation (consumer prices) rate,2008,16.5,AFR
 1637,Guinea,Annual average inflation (consumer prices) rate,2008,18.4,AFR
 1638,Guinea-Bissau,Annual average inflation (consumer prices) rate,2008,10.4,AFR
@@ -415,6 +459,7 @@
 1722,Sierra Leone,Annual average inflation (consumer prices) rate,2008,8.2,AFR
 1727,Somalia,Annual average inflation (consumer prices) rate,2008,,AFR
 1728,South Africa,Annual average inflation (consumer prices) rate,2008,11.0,AFR
+1729,South Sudan,Annual average inflation (consumer prices) rate,2008,,AFR
 1732,Sudan,Annual average inflation (consumer prices) rate,2008,14.3,AFR
 1740,Tanzania,Annual average inflation (consumer prices) rate,2008,10.3,AFR
 1743,Togo,Annual average inflation (consumer prices) rate,2008,7.7,AFR
@@ -430,8 +475,11 @@
 1792,Burundi,Annual average inflation (consumer prices) rate,2009,10.6,AFR
 1793,Cabo Verde,Annual average inflation (consumer prices) rate,2009,1.0,AFR
 1795,Cameroon,Annual average inflation (consumer prices) rate,2009,3.0,AFR
+1797,Central African Republic,Annual average inflation (consumer prices) rate,2009,3.6,AFR
 1798,Chad,Annual average inflation (consumer prices) rate,2009,10.1,AFR
 1802,Comoros,Annual average inflation (consumer prices) rate,2009,4.8,AFR
+1803,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2009,46.1,AFR
+1804,Republic of Congo,Annual average inflation (consumer prices) rate,2009,4.3,AFR
 1811,Djibouti,Annual average inflation (consumer prices) rate,2009,5.6,AFR
 1815,Egypt,Annual average inflation (consumer prices) rate,2009,16.2,AFR
 1817,Equatorial Guinea,Annual average inflation (consumer prices) rate,2009,5.7,AFR
@@ -439,6 +487,7 @@
 1820,Eswatini,Annual average inflation (consumer prices) rate,2009,7.4,AFR
 1821,Ethiopia,Annual average inflation (consumer prices) rate,2009,8.5,AFR
 1825,Gabon,Annual average inflation (consumer prices) rate,2009,1.9,AFR
+1826,Gambia,Annual average inflation (consumer prices) rate,2009,4.6,AFR
 1829,Ghana,Annual average inflation (consumer prices) rate,2009,13.1,AFR
 1833,Guinea,Annual average inflation (consumer prices) rate,2009,4.7,AFR
 1834,Guinea-Bissau,Annual average inflation (consumer prices) rate,2009,-1.6,AFR
@@ -462,6 +511,7 @@
 1918,Sierra Leone,Annual average inflation (consumer prices) rate,2009,7.5,AFR
 1923,Somalia,Annual average inflation (consumer prices) rate,2009,,AFR
 1924,South Africa,Annual average inflation (consumer prices) rate,2009,7.2,AFR
+1925,South Sudan,Annual average inflation (consumer prices) rate,2009,,AFR
 1928,Sudan,Annual average inflation (consumer prices) rate,2009,11.3,AFR
 1936,Tanzania,Annual average inflation (consumer prices) rate,2009,12.1,AFR
 1939,Togo,Annual average inflation (consumer prices) rate,2009,4.1,AFR
@@ -477,8 +527,11 @@
 1988,Burundi,Annual average inflation (consumer prices) rate,2010,6.5,AFR
 1989,Cabo Verde,Annual average inflation (consumer prices) rate,2010,2.1,AFR
 1991,Cameroon,Annual average inflation (consumer prices) rate,2010,1.3,AFR
+1993,Central African Republic,Annual average inflation (consumer prices) rate,2010,1.5,AFR
 1994,Chad,Annual average inflation (consumer prices) rate,2010,-2.1,AFR
 1998,Comoros,Annual average inflation (consumer prices) rate,2010,3.9,AFR
+1999,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2010,23.5,AFR
+2000,Republic of Congo,Annual average inflation (consumer prices) rate,2010,0.4,AFR
 2007,Djibouti,Annual average inflation (consumer prices) rate,2010,2.5,AFR
 2011,Egypt,Annual average inflation (consumer prices) rate,2010,11.7,AFR
 2013,Equatorial Guinea,Annual average inflation (consumer prices) rate,2010,5.3,AFR
@@ -486,6 +539,7 @@
 2016,Eswatini,Annual average inflation (consumer prices) rate,2010,4.5,AFR
 2017,Ethiopia,Annual average inflation (consumer prices) rate,2010,8.1,AFR
 2021,Gabon,Annual average inflation (consumer prices) rate,2010,1.4,AFR
+2022,Gambia,Annual average inflation (consumer prices) rate,2010,5.0,AFR
 2025,Ghana,Annual average inflation (consumer prices) rate,2010,6.7,AFR
 2029,Guinea,Annual average inflation (consumer prices) rate,2010,15.5,AFR
 2030,Guinea-Bissau,Annual average inflation (consumer prices) rate,2010,1.1,AFR
@@ -509,6 +563,7 @@
 2114,Sierra Leone,Annual average inflation (consumer prices) rate,2010,7.2,AFR
 2119,Somalia,Annual average inflation (consumer prices) rate,2010,,AFR
 2120,South Africa,Annual average inflation (consumer prices) rate,2010,4.2,AFR
+2121,South Sudan,Annual average inflation (consumer prices) rate,2010,,AFR
 2124,Sudan,Annual average inflation (consumer prices) rate,2010,13.0,AFR
 2132,Tanzania,Annual average inflation (consumer prices) rate,2010,7.2,AFR
 2135,Togo,Annual average inflation (consumer prices) rate,2010,0.2,AFR
@@ -524,8 +579,11 @@
 2184,Burundi,Annual average inflation (consumer prices) rate,2011,9.6,AFR
 2185,Cabo Verde,Annual average inflation (consumer prices) rate,2011,4.5,AFR
 2187,Cameroon,Annual average inflation (consumer prices) rate,2011,3.0,AFR
+2189,Central African Republic,Annual average inflation (consumer prices) rate,2011,1.2,AFR
 2190,Chad,Annual average inflation (consumer prices) rate,2011,2.0,AFR
 2194,Comoros,Annual average inflation (consumer prices) rate,2011,2.2,AFR
+2195,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2011,14.9,AFR
+2196,Republic of Congo,Annual average inflation (consumer prices) rate,2011,1.8,AFR
 2203,Djibouti,Annual average inflation (consumer prices) rate,2011,5.2,AFR
 2207,Egypt,Annual average inflation (consumer prices) rate,2011,11.1,AFR
 2209,Equatorial Guinea,Annual average inflation (consumer prices) rate,2011,4.8,AFR
@@ -533,6 +591,7 @@
 2212,Eswatini,Annual average inflation (consumer prices) rate,2011,6.1,AFR
 2213,Ethiopia,Annual average inflation (consumer prices) rate,2011,33.2,AFR
 2217,Gabon,Annual average inflation (consumer prices) rate,2011,1.3,AFR
+2218,Gambia,Annual average inflation (consumer prices) rate,2011,4.8,AFR
 2221,Ghana,Annual average inflation (consumer prices) rate,2011,7.7,AFR
 2225,Guinea,Annual average inflation (consumer prices) rate,2011,21.4,AFR
 2226,Guinea-Bissau,Annual average inflation (consumer prices) rate,2011,5.1,AFR
@@ -556,6 +615,7 @@
 2310,Sierra Leone,Annual average inflation (consumer prices) rate,2011,6.8,AFR
 2315,Somalia,Annual average inflation (consumer prices) rate,2011,,AFR
 2316,South Africa,Annual average inflation (consumer prices) rate,2011,5.0,AFR
+2317,South Sudan,Annual average inflation (consumer prices) rate,2011,,AFR
 2320,Sudan,Annual average inflation (consumer prices) rate,2011,18.1,AFR
 2328,Tanzania,Annual average inflation (consumer prices) rate,2011,12.7,AFR
 2331,Togo,Annual average inflation (consumer prices) rate,2011,3.6,AFR
@@ -571,8 +631,11 @@
 2380,Burundi,Annual average inflation (consumer prices) rate,2012,18.2,AFR
 2381,Cabo Verde,Annual average inflation (consumer prices) rate,2012,2.5,AFR
 2383,Cameroon,Annual average inflation (consumer prices) rate,2012,2.4,AFR
+2385,Central African Republic,Annual average inflation (consumer prices) rate,2012,5.9,AFR
 2386,Chad,Annual average inflation (consumer prices) rate,2012,7.5,AFR
 2390,Comoros,Annual average inflation (consumer prices) rate,2012,5.9,AFR
+2391,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2012,0.9,AFR
+2392,Republic of Congo,Annual average inflation (consumer prices) rate,2012,5.0,AFR
 2399,Djibouti,Annual average inflation (consumer prices) rate,2012,4.2,AFR
 2403,Egypt,Annual average inflation (consumer prices) rate,2012,8.7,AFR
 2405,Equatorial Guinea,Annual average inflation (consumer prices) rate,2012,3.4,AFR
@@ -580,6 +643,7 @@
 2408,Eswatini,Annual average inflation (consumer prices) rate,2012,8.9,AFR
 2409,Ethiopia,Annual average inflation (consumer prices) rate,2012,24.1,AFR
 2413,Gabon,Annual average inflation (consumer prices) rate,2012,2.7,AFR
+2414,Gambia,Annual average inflation (consumer prices) rate,2012,4.6,AFR
 2417,Ghana,Annual average inflation (consumer prices) rate,2012,7.1,AFR
 2421,Guinea,Annual average inflation (consumer prices) rate,2012,15.2,AFR
 2422,Guinea-Bissau,Annual average inflation (consumer prices) rate,2012,2.1,AFR
@@ -603,6 +667,7 @@
 2506,Sierra Leone,Annual average inflation (consumer prices) rate,2012,6.6,AFR
 2511,Somalia,Annual average inflation (consumer prices) rate,2012,,AFR
 2512,South Africa,Annual average inflation (consumer prices) rate,2012,5.6,AFR
+2513,South Sudan,Annual average inflation (consumer prices) rate,2012,42.4,AFR
 2516,Sudan,Annual average inflation (consumer prices) rate,2012,35.6,AFR
 2524,Tanzania,Annual average inflation (consumer prices) rate,2012,16.0,AFR
 2527,Togo,Annual average inflation (consumer prices) rate,2012,2.6,AFR
@@ -618,8 +683,11 @@
 2576,Burundi,Annual average inflation (consumer prices) rate,2013,7.9,AFR
 2577,Cabo Verde,Annual average inflation (consumer prices) rate,2013,1.5,AFR
 2579,Cameroon,Annual average inflation (consumer prices) rate,2013,2.1,AFR
+2581,Central African Republic,Annual average inflation (consumer prices) rate,2013,4.0,AFR
 2582,Chad,Annual average inflation (consumer prices) rate,2013,0.2,AFR
 2586,Comoros,Annual average inflation (consumer prices) rate,2013,0.4,AFR
+2587,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2013,0.9,AFR
+2588,Republic of Congo,Annual average inflation (consumer prices) rate,2013,4.6,AFR
 2595,Djibouti,Annual average inflation (consumer prices) rate,2013,1.1,AFR
 2599,Egypt,Annual average inflation (consumer prices) rate,2013,6.9,AFR
 2601,Equatorial Guinea,Annual average inflation (consumer prices) rate,2013,3.2,AFR
@@ -627,6 +695,7 @@
 2604,Eswatini,Annual average inflation (consumer prices) rate,2013,5.6,AFR
 2605,Ethiopia,Annual average inflation (consumer prices) rate,2013,8.1,AFR
 2609,Gabon,Annual average inflation (consumer prices) rate,2013,0.5,AFR
+2610,Gambia,Annual average inflation (consumer prices) rate,2013,5.2,AFR
 2613,Ghana,Annual average inflation (consumer prices) rate,2013,11.7,AFR
 2617,Guinea,Annual average inflation (consumer prices) rate,2013,11.9,AFR
 2618,Guinea-Bissau,Annual average inflation (consumer prices) rate,2013,0.8,AFR
@@ -650,6 +719,7 @@
 2702,Sierra Leone,Annual average inflation (consumer prices) rate,2013,5.5,AFR
 2707,Somalia,Annual average inflation (consumer prices) rate,2013,2.8,AFR
 2708,South Africa,Annual average inflation (consumer prices) rate,2013,5.7,AFR
+2709,South Sudan,Annual average inflation (consumer prices) rate,2013,-2.7,AFR
 2712,Sudan,Annual average inflation (consumer prices) rate,2013,36.5,AFR
 2720,Tanzania,Annual average inflation (consumer prices) rate,2013,7.9,AFR
 2723,Togo,Annual average inflation (consumer prices) rate,2013,1.8,AFR
@@ -665,8 +735,11 @@
 2772,Burundi,Annual average inflation (consumer prices) rate,2014,4.4,AFR
 2773,Cabo Verde,Annual average inflation (consumer prices) rate,2014,-0.2,AFR
 2775,Cameroon,Annual average inflation (consumer prices) rate,2014,1.9,AFR
+2777,Central African Republic,Annual average inflation (consumer prices) rate,2014,17.8,AFR
 2778,Chad,Annual average inflation (consumer prices) rate,2014,1.7,AFR
 2782,Comoros,Annual average inflation (consumer prices) rate,2014,0.0,AFR
+2783,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2014,1.2,AFR
+2784,Republic of Congo,Annual average inflation (consumer prices) rate,2014,0.9,AFR
 2791,Djibouti,Annual average inflation (consumer prices) rate,2014,1.3,AFR
 2795,Egypt,Annual average inflation (consumer prices) rate,2014,10.1,AFR
 2797,Equatorial Guinea,Annual average inflation (consumer prices) rate,2014,4.3,AFR
@@ -674,6 +747,7 @@
 2800,Eswatini,Annual average inflation (consumer prices) rate,2014,5.7,AFR
 2801,Ethiopia,Annual average inflation (consumer prices) rate,2014,7.4,AFR
 2805,Gabon,Annual average inflation (consumer prices) rate,2014,4.5,AFR
+2806,Gambia,Annual average inflation (consumer prices) rate,2014,6.3,AFR
 2809,Ghana,Annual average inflation (consumer prices) rate,2014,15.5,AFR
 2813,Guinea,Annual average inflation (consumer prices) rate,2014,9.7,AFR
 2814,Guinea-Bissau,Annual average inflation (consumer prices) rate,2014,-1.0,AFR
@@ -697,6 +771,7 @@
 2898,Sierra Leone,Annual average inflation (consumer prices) rate,2014,4.6,AFR
 2903,Somalia,Annual average inflation (consumer prices) rate,2014,1.3,AFR
 2904,South Africa,Annual average inflation (consumer prices) rate,2014,6.1,AFR
+2905,South Sudan,Annual average inflation (consumer prices) rate,2014,4.3,AFR
 2908,Sudan,Annual average inflation (consumer prices) rate,2014,36.9,AFR
 2916,Tanzania,Annual average inflation (consumer prices) rate,2014,6.1,AFR
 2919,Togo,Annual average inflation (consumer prices) rate,2014,0.2,AFR
@@ -712,8 +787,11 @@
 2968,Burundi,Annual average inflation (consumer prices) rate,2015,5.6,AFR
 2969,Cabo Verde,Annual average inflation (consumer prices) rate,2015,0.1,AFR
 2971,Cameroon,Annual average inflation (consumer prices) rate,2015,2.7,AFR
+2973,Central African Republic,Annual average inflation (consumer prices) rate,2015,1.4,AFR
 2974,Chad,Annual average inflation (consumer prices) rate,2015,4.8,AFR
 2978,Comoros,Annual average inflation (consumer prices) rate,2015,0.9,AFR
+2979,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2015,0.7,AFR
+2980,Republic of Congo,Annual average inflation (consumer prices) rate,2015,3.2,AFR
 2987,Djibouti,Annual average inflation (consumer prices) rate,2015,-0.8,AFR
 2991,Egypt,Annual average inflation (consumer prices) rate,2015,11.0,AFR
 2993,Equatorial Guinea,Annual average inflation (consumer prices) rate,2015,1.7,AFR
@@ -721,6 +799,7 @@
 2996,Eswatini,Annual average inflation (consumer prices) rate,2015,5.0,AFR
 2997,Ethiopia,Annual average inflation (consumer prices) rate,2015,9.6,AFR
 3001,Gabon,Annual average inflation (consumer prices) rate,2015,-0.1,AFR
+3002,Gambia,Annual average inflation (consumer prices) rate,2015,6.8,AFR
 3005,Ghana,Annual average inflation (consumer prices) rate,2015,17.2,AFR
 3009,Guinea,Annual average inflation (consumer prices) rate,2015,8.2,AFR
 3010,Guinea-Bissau,Annual average inflation (consumer prices) rate,2015,1.5,AFR
@@ -744,6 +823,7 @@
 3094,Sierra Leone,Annual average inflation (consumer prices) rate,2015,6.7,AFR
 3099,Somalia,Annual average inflation (consumer prices) rate,2015,0.9,AFR
 3100,South Africa,Annual average inflation (consumer prices) rate,2015,4.6,AFR
+3101,South Sudan,Annual average inflation (consumer prices) rate,2015,53.0,AFR
 3104,Sudan,Annual average inflation (consumer prices) rate,2015,16.9,AFR
 3112,Tanzania,Annual average inflation (consumer prices) rate,2015,5.6,AFR
 3115,Togo,Annual average inflation (consumer prices) rate,2015,1.8,AFR
@@ -759,8 +839,11 @@
 3164,Burundi,Annual average inflation (consumer prices) rate,2016,5.5,AFR
 3165,Cabo Verde,Annual average inflation (consumer prices) rate,2016,-1.4,AFR
 3167,Cameroon,Annual average inflation (consumer prices) rate,2016,0.9,AFR
+3169,Central African Republic,Annual average inflation (consumer prices) rate,2016,4.9,AFR
 3170,Chad,Annual average inflation (consumer prices) rate,2016,-1.6,AFR
 3174,Comoros,Annual average inflation (consumer prices) rate,2016,0.8,AFR
+3175,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2016,3.2,AFR
+3176,Republic of Congo,Annual average inflation (consumer prices) rate,2016,3.2,AFR
 3183,Djibouti,Annual average inflation (consumer prices) rate,2016,2.7,AFR
 3187,Egypt,Annual average inflation (consumer prices) rate,2016,10.2,AFR
 3189,Equatorial Guinea,Annual average inflation (consumer prices) rate,2016,1.4,AFR
@@ -768,6 +851,7 @@
 3192,Eswatini,Annual average inflation (consumer prices) rate,2016,7.8,AFR
 3193,Ethiopia,Annual average inflation (consumer prices) rate,2016,6.6,AFR
 3197,Gabon,Annual average inflation (consumer prices) rate,2016,2.1,AFR
+3198,Gambia,Annual average inflation (consumer prices) rate,2016,7.2,AFR
 3201,Ghana,Annual average inflation (consumer prices) rate,2016,17.5,AFR
 3205,Guinea,Annual average inflation (consumer prices) rate,2016,8.2,AFR
 3206,Guinea-Bissau,Annual average inflation (consumer prices) rate,2016,2.7,AFR
@@ -791,6 +875,7 @@
 3290,Sierra Leone,Annual average inflation (consumer prices) rate,2016,10.9,AFR
 3295,Somalia,Annual average inflation (consumer prices) rate,2016,0.0,AFR
 3296,South Africa,Annual average inflation (consumer prices) rate,2016,6.3,AFR
+3297,South Sudan,Annual average inflation (consumer prices) rate,2016,346.1,AFR
 3300,Sudan,Annual average inflation (consumer prices) rate,2016,17.8,AFR
 3308,Tanzania,Annual average inflation (consumer prices) rate,2016,5.2,AFR
 3311,Togo,Annual average inflation (consumer prices) rate,2016,0.9,AFR
@@ -806,8 +891,11 @@
 3360,Burundi,Annual average inflation (consumer prices) rate,2017,16.6,AFR
 3361,Cabo Verde,Annual average inflation (consumer prices) rate,2017,0.8,AFR
 3363,Cameroon,Annual average inflation (consumer prices) rate,2017,0.6,AFR
+3365,Central African Republic,Annual average inflation (consumer prices) rate,2017,4.2,AFR
 3366,Chad,Annual average inflation (consumer prices) rate,2017,-0.9,AFR
 3370,Comoros,Annual average inflation (consumer prices) rate,2017,0.1,AFR
+3371,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2017,35.7,AFR
+3372,Republic of Congo,Annual average inflation (consumer prices) rate,2017,0.4,AFR
 3379,Djibouti,Annual average inflation (consumer prices) rate,2017,0.6,AFR
 3383,Egypt,Annual average inflation (consumer prices) rate,2017,23.5,AFR
 3385,Equatorial Guinea,Annual average inflation (consumer prices) rate,2017,0.7,AFR
@@ -815,6 +903,7 @@
 3388,Eswatini,Annual average inflation (consumer prices) rate,2017,6.2,AFR
 3389,Ethiopia,Annual average inflation (consumer prices) rate,2017,10.7,AFR
 3393,Gabon,Annual average inflation (consumer prices) rate,2017,2.7,AFR
+3394,Gambia,Annual average inflation (consumer prices) rate,2017,8.0,AFR
 3397,Ghana,Annual average inflation (consumer prices) rate,2017,12.4,AFR
 3401,Guinea,Annual average inflation (consumer prices) rate,2017,8.9,AFR
 3402,Guinea-Bissau,Annual average inflation (consumer prices) rate,2017,-0.2,AFR
@@ -838,6 +927,7 @@
 3486,Sierra Leone,Annual average inflation (consumer prices) rate,2017,18.2,AFR
 3491,Somalia,Annual average inflation (consumer prices) rate,2017,4.0,AFR
 3492,South Africa,Annual average inflation (consumer prices) rate,2017,5.3,AFR
+3493,South Sudan,Annual average inflation (consumer prices) rate,2017,213.0,AFR
 3496,Sudan,Annual average inflation (consumer prices) rate,2017,32.4,AFR
 3504,Tanzania,Annual average inflation (consumer prices) rate,2017,5.3,AFR
 3507,Togo,Annual average inflation (consumer prices) rate,2017,-0.2,AFR
@@ -853,8 +943,11 @@
 3556,Burundi,Annual average inflation (consumer prices) rate,2018,-2.8,AFR
 3557,Cabo Verde,Annual average inflation (consumer prices) rate,2018,1.3,AFR
 3559,Cameroon,Annual average inflation (consumer prices) rate,2018,1.1,AFR
+3561,Central African Republic,Annual average inflation (consumer prices) rate,2018,1.6,AFR
 3562,Chad,Annual average inflation (consumer prices) rate,2018,4.0,AFR
 3566,Comoros,Annual average inflation (consumer prices) rate,2018,1.7,AFR
+3567,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2018,29.3,AFR
+3568,Republic of Congo,Annual average inflation (consumer prices) rate,2018,1.2,AFR
 3575,Djibouti,Annual average inflation (consumer prices) rate,2018,0.1,AFR
 3579,Egypt,Annual average inflation (consumer prices) rate,2018,20.9,AFR
 3581,Equatorial Guinea,Annual average inflation (consumer prices) rate,2018,1.3,AFR
@@ -862,6 +955,7 @@
 3584,Eswatini,Annual average inflation (consumer prices) rate,2018,4.8,AFR
 3585,Ethiopia,Annual average inflation (consumer prices) rate,2018,13.8,AFR
 3589,Gabon,Annual average inflation (consumer prices) rate,2018,4.8,AFR
+3590,Gambia,Annual average inflation (consumer prices) rate,2018,6.5,AFR
 3593,Ghana,Annual average inflation (consumer prices) rate,2018,9.8,AFR
 3597,Guinea,Annual average inflation (consumer prices) rate,2018,9.8,AFR
 3598,Guinea-Bissau,Annual average inflation (consumer prices) rate,2018,0.4,AFR
@@ -885,6 +979,7 @@
 3682,Sierra Leone,Annual average inflation (consumer prices) rate,2018,16.0,AFR
 3687,Somalia,Annual average inflation (consumer prices) rate,2018,4.3,AFR
 3688,South Africa,Annual average inflation (consumer prices) rate,2018,4.6,AFR
+3689,South Sudan,Annual average inflation (consumer prices) rate,2018,83.4,AFR
 3692,Sudan,Annual average inflation (consumer prices) rate,2018,63.3,AFR
 3700,Tanzania,Annual average inflation (consumer prices) rate,2018,3.5,AFR
 3703,Togo,Annual average inflation (consumer prices) rate,2018,0.9,AFR
@@ -900,8 +995,11 @@
 3752,Burundi,Annual average inflation (consumer prices) rate,2019,-0.7,AFR
 3753,Cabo Verde,Annual average inflation (consumer prices) rate,2019,1.1,AFR
 3755,Cameroon,Annual average inflation (consumer prices) rate,2019,2.5,AFR
+3757,Central African Republic,Annual average inflation (consumer prices) rate,2019,2.8,AFR
 3758,Chad,Annual average inflation (consumer prices) rate,2019,-1.0,AFR
 3762,Comoros,Annual average inflation (consumer prices) rate,2019,3.7,AFR
+3763,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2019,4.7,AFR
+3764,Republic of Congo,Annual average inflation (consumer prices) rate,2019,0.4,AFR
 3771,Djibouti,Annual average inflation (consumer prices) rate,2019,3.3,AFR
 3775,Egypt,Annual average inflation (consumer prices) rate,2019,13.9,AFR
 3777,Equatorial Guinea,Annual average inflation (consumer prices) rate,2019,1.2,AFR
@@ -909,6 +1007,7 @@
 3780,Eswatini,Annual average inflation (consumer prices) rate,2019,2.6,AFR
 3781,Ethiopia,Annual average inflation (consumer prices) rate,2019,15.8,AFR
 3785,Gabon,Annual average inflation (consumer prices) rate,2019,2.0,AFR
+3786,Gambia,Annual average inflation (consumer prices) rate,2019,7.1,AFR
 3789,Ghana,Annual average inflation (consumer prices) rate,2019,7.1,AFR
 3793,Guinea,Annual average inflation (consumer prices) rate,2019,9.5,AFR
 3794,Guinea-Bissau,Annual average inflation (consumer prices) rate,2019,0.3,AFR
@@ -932,6 +1031,7 @@
 3878,Sierra Leone,Annual average inflation (consumer prices) rate,2019,14.8,AFR
 3883,Somalia,Annual average inflation (consumer prices) rate,2019,4.5,AFR
 3884,South Africa,Annual average inflation (consumer prices) rate,2019,4.1,AFR
+3885,South Sudan,Annual average inflation (consumer prices) rate,2019,49.3,AFR
 3888,Sudan,Annual average inflation (consumer prices) rate,2019,51.0,AFR
 3896,Tanzania,Annual average inflation (consumer prices) rate,2019,3.4,AFR
 3899,Togo,Annual average inflation (consumer prices) rate,2019,0.7,AFR
@@ -947,8 +1047,11 @@
 3948,Burundi,Annual average inflation (consumer prices) rate,2020,7.3,AFR
 3949,Cabo Verde,Annual average inflation (consumer prices) rate,2020,0.6,AFR
 3951,Cameroon,Annual average inflation (consumer prices) rate,2020,2.5,AFR
+3953,Central African Republic,Annual average inflation (consumer prices) rate,2020,0.9,AFR
 3954,Chad,Annual average inflation (consumer prices) rate,2020,4.5,AFR
 3958,Comoros,Annual average inflation (consumer prices) rate,2020,0.8,AFR
+3959,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2020,11.4,AFR
+3960,Republic of Congo,Annual average inflation (consumer prices) rate,2020,1.4,AFR
 3967,Djibouti,Annual average inflation (consumer prices) rate,2020,1.8,AFR
 3971,Egypt,Annual average inflation (consumer prices) rate,2020,5.7,AFR
 3973,Equatorial Guinea,Annual average inflation (consumer prices) rate,2020,4.8,AFR
@@ -956,6 +1059,7 @@
 3976,Eswatini,Annual average inflation (consumer prices) rate,2020,3.9,AFR
 3977,Ethiopia,Annual average inflation (consumer prices) rate,2020,20.4,AFR
 3981,Gabon,Annual average inflation (consumer prices) rate,2020,1.7,AFR
+3982,Gambia,Annual average inflation (consumer prices) rate,2020,5.9,AFR
 3985,Ghana,Annual average inflation (consumer prices) rate,2020,9.9,AFR
 3989,Guinea,Annual average inflation (consumer prices) rate,2020,10.6,AFR
 3990,Guinea-Bissau,Annual average inflation (consumer prices) rate,2020,1.5,AFR
@@ -979,6 +1083,7 @@
 4074,Sierra Leone,Annual average inflation (consumer prices) rate,2020,13.4,AFR
 4079,Somalia,Annual average inflation (consumer prices) rate,2020,4.3,AFR
 4080,South Africa,Annual average inflation (consumer prices) rate,2020,3.3,AFR
+4081,South Sudan,Annual average inflation (consumer prices) rate,2020,24.0,AFR
 4084,Sudan,Annual average inflation (consumer prices) rate,2020,163.3,AFR
 4092,Tanzania,Annual average inflation (consumer prices) rate,2020,3.3,AFR
 4095,Togo,Annual average inflation (consumer prices) rate,2020,1.8,AFR
@@ -994,8 +1099,11 @@
 4144,Burundi,Annual average inflation (consumer prices) rate,2021,8.3,AFR
 4145,Cabo Verde,Annual average inflation (consumer prices) rate,2021,1.9,AFR
 4147,Cameroon,Annual average inflation (consumer prices) rate,2021,2.3,AFR
+4149,Central African Republic,Annual average inflation (consumer prices) rate,2021,4.3,AFR
 4150,Chad,Annual average inflation (consumer prices) rate,2021,-0.8,AFR
 4154,Comoros,Annual average inflation (consumer prices) rate,2021,0.0,AFR
+4155,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2021,9.0,AFR
+4156,Republic of Congo,Annual average inflation (consumer prices) rate,2021,2.0,AFR
 4163,Djibouti,Annual average inflation (consumer prices) rate,2021,1.2,AFR
 4167,Egypt,Annual average inflation (consumer prices) rate,2021,4.5,AFR
 4169,Equatorial Guinea,Annual average inflation (consumer prices) rate,2021,-0.1,AFR
@@ -1003,6 +1111,7 @@
 4172,Eswatini,Annual average inflation (consumer prices) rate,2021,3.7,AFR
 4173,Ethiopia,Annual average inflation (consumer prices) rate,2021,26.8,AFR
 4177,Gabon,Annual average inflation (consumer prices) rate,2021,1.1,AFR
+4178,Gambia,Annual average inflation (consumer prices) rate,2021,7.4,AFR
 4181,Ghana,Annual average inflation (consumer prices) rate,2021,10.0,AFR
 4185,Guinea,Annual average inflation (consumer prices) rate,2021,12.6,AFR
 4186,Guinea-Bissau,Annual average inflation (consumer prices) rate,2021,3.3,AFR
@@ -1026,6 +1135,7 @@
 4270,Sierra Leone,Annual average inflation (consumer prices) rate,2021,11.9,AFR
 4275,Somalia,Annual average inflation (consumer prices) rate,2021,4.6,AFR
 4276,South Africa,Annual average inflation (consumer prices) rate,2021,4.6,AFR
+4277,South Sudan,Annual average inflation (consumer prices) rate,2021,30.2,AFR
 4280,Sudan,Annual average inflation (consumer prices) rate,2021,359.1,AFR
 4288,Tanzania,Annual average inflation (consumer prices) rate,2021,3.7,AFR
 4291,Togo,Annual average inflation (consumer prices) rate,2021,4.5,AFR
@@ -1041,8 +1151,11 @@
 4340,Burundi,Annual average inflation (consumer prices) rate,2022,18.9,AFR
 4341,Cabo Verde,Annual average inflation (consumer prices) rate,2022,7.9,AFR
 4343,Cameroon,Annual average inflation (consumer prices) rate,2022,6.3,AFR
+4345,Central African Republic,Annual average inflation (consumer prices) rate,2022,5.8,AFR
 4346,Chad,Annual average inflation (consumer prices) rate,2022,5.8,AFR
 4350,Comoros,Annual average inflation (consumer prices) rate,2022,12.4,AFR
+4351,Democratic Republic of the Congo,Annual average inflation (consumer prices) rate,2022,9.3,AFR
+4352,Republic of Congo,Annual average inflation (consumer prices) rate,2022,3.0,AFR
 4359,Djibouti,Annual average inflation (consumer prices) rate,2022,5.2,AFR
 4363,Egypt,Annual average inflation (consumer prices) rate,2022,8.5,AFR
 4365,Equatorial Guinea,Annual average inflation (consumer prices) rate,2022,4.9,AFR
@@ -1050,6 +1163,7 @@
 4368,Eswatini,Annual average inflation (consumer prices) rate,2022,4.8,AFR
 4369,Ethiopia,Annual average inflation (consumer prices) rate,2022,33.9,AFR
 4373,Gabon,Annual average inflation (consumer prices) rate,2022,4.3,AFR
+4374,Gambia,Annual average inflation (consumer prices) rate,2022,11.5,AFR
 4377,Ghana,Annual average inflation (consumer prices) rate,2022,31.9,AFR
 4381,Guinea,Annual average inflation (consumer prices) rate,2022,10.5,AFR
 4382,Guinea-Bissau,Annual average inflation (consumer prices) rate,2022,7.9,AFR
@@ -1073,6 +1187,7 @@
 4466,Sierra Leone,Annual average inflation (consumer prices) rate,2022,27.2,AFR
 4471,Somalia,Annual average inflation (consumer prices) rate,2022,6.8,AFR
 4472,South Africa,Annual average inflation (consumer prices) rate,2022,6.9,AFR
+4473,South Sudan,Annual average inflation (consumer prices) rate,2022,-3.2,AFR
 4476,Sudan,Annual average inflation (consumer prices) rate,2022,138.8,AFR
 4484,Tanzania,Annual average inflation (consumer prices) rate,2022,4.4,AFR
 4487,Togo,Annual average inflation (consumer prices) rate,2022,7.6,AFR

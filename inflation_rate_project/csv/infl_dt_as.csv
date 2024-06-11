@@ -6,6 +6,7 @@
 14,Bangladesh,Annual average inflation (consumer prices) rate,2000,3.6,AS
 20,Bhutan,Annual average inflation (consumer prices) rate,2000,7.2,AS
 30,Cambodia,Annual average inflation (consumer prices) rate,2000,-0.8,AS
+36,China,Annual average inflation (consumer prices) rate,2000,0.4,AS
 43,Cyprus,Annual average inflation (consumer prices) rate,2000,4.9,AS
 63,Georgia,Annual average inflation (consumer prices) rate,2000,4.0,AS
 77,India,Annual average inflation (consumer prices) rate,2000,3.8,AS
@@ -45,6 +46,7 @@
 210,Bangladesh,Annual average inflation (consumer prices) rate,2001,1.8,AS
 216,Bhutan,Annual average inflation (consumer prices) rate,2001,3.7,AS
 226,Cambodia,Annual average inflation (consumer prices) rate,2001,-0.1,AS
+232,China,Annual average inflation (consumer prices) rate,2001,0.7,AS
 239,Cyprus,Annual average inflation (consumer prices) rate,2001,2.0,AS
 259,Georgia,Annual average inflation (consumer prices) rate,2001,4.7,AS
 273,India,Annual average inflation (consumer prices) rate,2001,4.3,AS
@@ -84,6 +86,7 @@
 406,Bangladesh,Annual average inflation (consumer prices) rate,2002,2.4,AS
 412,Bhutan,Annual average inflation (consumer prices) rate,2002,2.9,AS
 422,Cambodia,Annual average inflation (consumer prices) rate,2002,0.0,AS
+428,China,Annual average inflation (consumer prices) rate,2002,-0.7,AS
 435,Cyprus,Annual average inflation (consumer prices) rate,2002,2.8,AS
 455,Georgia,Annual average inflation (consumer prices) rate,2002,5.6,AS
 469,India,Annual average inflation (consumer prices) rate,2002,4.0,AS
@@ -123,6 +126,7 @@
 602,Bangladesh,Annual average inflation (consumer prices) rate,2003,3.9,AS
 608,Bhutan,Annual average inflation (consumer prices) rate,2003,2.5,AS
 618,Cambodia,Annual average inflation (consumer prices) rate,2003,1.0,AS
+624,China,Annual average inflation (consumer prices) rate,2003,1.1,AS
 631,Cyprus,Annual average inflation (consumer prices) rate,2003,4.0,AS
 651,Georgia,Annual average inflation (consumer prices) rate,2003,4.8,AS
 665,India,Annual average inflation (consumer prices) rate,2003,3.9,AS
@@ -162,6 +166,7 @@
 798,Bangladesh,Annual average inflation (consumer prices) rate,2004,8.1,AS
 804,Bhutan,Annual average inflation (consumer prices) rate,2004,3.3,AS
 814,Cambodia,Annual average inflation (consumer prices) rate,2004,3.9,AS
+820,China,Annual average inflation (consumer prices) rate,2004,3.8,AS
 827,Cyprus,Annual average inflation (consumer prices) rate,2004,1.9,AS
 847,Georgia,Annual average inflation (consumer prices) rate,2004,5.7,AS
 861,India,Annual average inflation (consumer prices) rate,2004,3.8,AS
@@ -201,6 +206,7 @@
 994,Bangladesh,Annual average inflation (consumer prices) rate,2005,6.5,AS
 1000,Bhutan,Annual average inflation (consumer prices) rate,2005,4.8,AS
 1010,Cambodia,Annual average inflation (consumer prices) rate,2005,6.3,AS
+1016,China,Annual average inflation (consumer prices) rate,2005,1.8,AS
 1023,Cyprus,Annual average inflation (consumer prices) rate,2005,2.0,AS
 1043,Georgia,Annual average inflation (consumer prices) rate,2005,8.2,AS
 1057,India,Annual average inflation (consumer prices) rate,2005,4.4,AS
@@ -240,6 +246,7 @@
 1190,Bangladesh,Annual average inflation (consumer prices) rate,2006,7.2,AS
 1196,Bhutan,Annual average inflation (consumer prices) rate,2006,4.9,AS
 1206,Cambodia,Annual average inflation (consumer prices) rate,2006,6.1,AS
+1212,China,Annual average inflation (consumer prices) rate,2006,1.6,AS
 1219,Cyprus,Annual average inflation (consumer prices) rate,2006,2.3,AS
 1239,Georgia,Annual average inflation (consumer prices) rate,2006,9.2,AS
 1253,India,Annual average inflation (consumer prices) rate,2006,6.7,AS
@@ -279,6 +286,7 @@
 1386,Bangladesh,Annual average inflation (consumer prices) rate,2007,7.2,AS
 1392,Bhutan,Annual average inflation (consumer prices) rate,2007,5.2,AS
 1402,Cambodia,Annual average inflation (consumer prices) rate,2007,7.7,AS
+1408,China,Annual average inflation (consumer prices) rate,2007,4.8,AS
 1415,Cyprus,Annual average inflation (consumer prices) rate,2007,2.2,AS
 1435,Georgia,Annual average inflation (consumer prices) rate,2007,9.2,AS
 1449,India,Annual average inflation (consumer prices) rate,2007,6.2,AS
@@ -318,6 +326,7 @@
 1582,Bangladesh,Annual average inflation (consumer prices) rate,2008,9.9,AS
 1588,Bhutan,Annual average inflation (consumer prices) rate,2008,6.3,AS
 1598,Cambodia,Annual average inflation (consumer prices) rate,2008,25.0,AS
+1604,China,Annual average inflation (consumer prices) rate,2008,5.9,AS
 1611,Cyprus,Annual average inflation (consumer prices) rate,2008,4.4,AS
 1631,Georgia,Annual average inflation (consumer prices) rate,2008,10.0,AS
 1645,India,Annual average inflation (consumer prices) rate,2008,9.1,AS
@@ -357,6 +366,7 @@
 1778,Bangladesh,Annual average inflation (consumer prices) rate,2009,6.7,AS
 1784,Bhutan,Annual average inflation (consumer prices) rate,2009,7.1,AS
 1794,Cambodia,Annual average inflation (consumer prices) rate,2009,-0.7,AS
+1800,China,Annual average inflation (consumer prices) rate,2009,-0.7,AS
 1807,Cyprus,Annual average inflation (consumer prices) rate,2009,0.2,AS
 1827,Georgia,Annual average inflation (consumer prices) rate,2009,1.7,AS
 1841,India,Annual average inflation (consumer prices) rate,2009,12.3,AS
@@ -396,6 +406,7 @@
 1974,Bangladesh,Annual average inflation (consumer prices) rate,2010,7.3,AS
 1980,Bhutan,Annual average inflation (consumer prices) rate,2010,4.8,AS
 1990,Cambodia,Annual average inflation (consumer prices) rate,2010,4.0,AS
+1996,China,Annual average inflation (consumer prices) rate,2010,3.2,AS
 2003,Cyprus,Annual average inflation (consumer prices) rate,2010,2.6,AS
 2023,Georgia,Annual average inflation (consumer prices) rate,2010,7.1,AS
 2037,India,Annual average inflation (consumer prices) rate,2010,10.5,AS
@@ -435,6 +446,7 @@
 2170,Bangladesh,Annual average inflation (consumer prices) rate,2011,8.8,AS
 2176,Bhutan,Annual average inflation (consumer prices) rate,2011,8.6,AS
 2186,Cambodia,Annual average inflation (consumer prices) rate,2011,5.5,AS
+2192,China,Annual average inflation (consumer prices) rate,2011,5.5,AS
 2199,Cyprus,Annual average inflation (consumer prices) rate,2011,3.5,AS
 2219,Georgia,Annual average inflation (consumer prices) rate,2011,8.5,AS
 2233,India,Annual average inflation (consumer prices) rate,2011,9.5,AS
@@ -474,6 +486,7 @@
 2366,Bangladesh,Annual average inflation (consumer prices) rate,2012,8.9,AS
 2372,Bhutan,Annual average inflation (consumer prices) rate,2012,10.1,AS
 2382,Cambodia,Annual average inflation (consumer prices) rate,2012,2.9,AS
+2388,China,Annual average inflation (consumer prices) rate,2012,2.6,AS
 2395,Cyprus,Annual average inflation (consumer prices) rate,2012,3.1,AS
 2415,Georgia,Annual average inflation (consumer prices) rate,2012,-0.9,AS
 2429,India,Annual average inflation (consumer prices) rate,2012,10.0,AS
@@ -513,6 +526,7 @@
 2562,Bangladesh,Annual average inflation (consumer prices) rate,2013,6.8,AS
 2568,Bhutan,Annual average inflation (consumer prices) rate,2013,8.1,AS
 2578,Cambodia,Annual average inflation (consumer prices) rate,2013,2.9,AS
+2584,China,Annual average inflation (consumer prices) rate,2013,2.6,AS
 2591,Cyprus,Annual average inflation (consumer prices) rate,2013,0.4,AS
 2611,Georgia,Annual average inflation (consumer prices) rate,2013,-0.5,AS
 2625,India,Annual average inflation (consumer prices) rate,2013,9.4,AS
@@ -552,6 +566,7 @@
 2758,Bangladesh,Annual average inflation (consumer prices) rate,2014,7.3,AS
 2764,Bhutan,Annual average inflation (consumer prices) rate,2014,9.6,AS
 2774,Cambodia,Annual average inflation (consumer prices) rate,2014,3.9,AS
+2780,China,Annual average inflation (consumer prices) rate,2014,2.1,AS
 2787,Cyprus,Annual average inflation (consumer prices) rate,2014,-0.3,AS
 2807,Georgia,Annual average inflation (consumer prices) rate,2014,3.1,AS
 2821,India,Annual average inflation (consumer prices) rate,2014,5.8,AS
@@ -591,6 +606,7 @@
 2954,Bangladesh,Annual average inflation (consumer prices) rate,2015,6.4,AS
 2960,Bhutan,Annual average inflation (consumer prices) rate,2015,6.7,AS
 2970,Cambodia,Annual average inflation (consumer prices) rate,2015,1.2,AS
+2976,China,Annual average inflation (consumer prices) rate,2015,1.5,AS
 2983,Cyprus,Annual average inflation (consumer prices) rate,2015,-1.5,AS
 3003,Georgia,Annual average inflation (consumer prices) rate,2015,4.0,AS
 3017,India,Annual average inflation (consumer prices) rate,2015,4.9,AS
@@ -630,6 +646,7 @@
 3150,Bangladesh,Annual average inflation (consumer prices) rate,2016,5.9,AS
 3156,Bhutan,Annual average inflation (consumer prices) rate,2016,3.3,AS
 3166,Cambodia,Annual average inflation (consumer prices) rate,2016,3.0,AS
+3172,China,Annual average inflation (consumer prices) rate,2016,2.1,AS
 3179,Cyprus,Annual average inflation (consumer prices) rate,2016,-1.2,AS
 3199,Georgia,Annual average inflation (consumer prices) rate,2016,2.1,AS
 3213,India,Annual average inflation (consumer prices) rate,2016,4.5,AS
@@ -669,6 +686,7 @@
 3346,Bangladesh,Annual average inflation (consumer prices) rate,2017,5.4,AS
 3352,Bhutan,Annual average inflation (consumer prices) rate,2017,4.3,AS
 3362,Cambodia,Annual average inflation (consumer prices) rate,2017,2.9,AS
+3368,China,Annual average inflation (consumer prices) rate,2017,1.5,AS
 3375,Cyprus,Annual average inflation (consumer prices) rate,2017,0.7,AS
 3395,Georgia,Annual average inflation (consumer prices) rate,2017,6.0,AS
 3409,India,Annual average inflation (consumer prices) rate,2017,3.6,AS
@@ -708,6 +726,7 @@
 3542,Bangladesh,Annual average inflation (consumer prices) rate,2018,5.8,AS
 3548,Bhutan,Annual average inflation (consumer prices) rate,2018,3.7,AS
 3558,Cambodia,Annual average inflation (consumer prices) rate,2018,2.5,AS
+3564,China,Annual average inflation (consumer prices) rate,2018,1.9,AS
 3571,Cyprus,Annual average inflation (consumer prices) rate,2018,0.8,AS
 3591,Georgia,Annual average inflation (consumer prices) rate,2018,2.6,AS
 3605,India,Annual average inflation (consumer prices) rate,2018,3.4,AS
@@ -747,6 +766,7 @@
 3738,Bangladesh,Annual average inflation (consumer prices) rate,2019,5.5,AS
 3744,Bhutan,Annual average inflation (consumer prices) rate,2019,2.8,AS
 3754,Cambodia,Annual average inflation (consumer prices) rate,2019,1.9,AS
+3760,China,Annual average inflation (consumer prices) rate,2019,2.9,AS
 3767,Cyprus,Annual average inflation (consumer prices) rate,2019,0.6,AS
 3787,Georgia,Annual average inflation (consumer prices) rate,2019,4.9,AS
 3801,India,Annual average inflation (consumer prices) rate,2019,4.8,AS
@@ -786,6 +806,7 @@
 3934,Bangladesh,Annual average inflation (consumer prices) rate,2020,5.6,AS
 3940,Bhutan,Annual average inflation (consumer prices) rate,2020,3.0,AS
 3950,Cambodia,Annual average inflation (consumer prices) rate,2020,2.9,AS
+3956,China,Annual average inflation (consumer prices) rate,2020,2.5,AS
 3963,Cyprus,Annual average inflation (consumer prices) rate,2020,-1.1,AS
 3983,Georgia,Annual average inflation (consumer prices) rate,2020,5.2,AS
 3997,India,Annual average inflation (consumer prices) rate,2020,6.2,AS
@@ -825,6 +846,7 @@
 4130,Bangladesh,Annual average inflation (consumer prices) rate,2021,5.6,AS
 4136,Bhutan,Annual average inflation (consumer prices) rate,2021,8.2,AS
 4146,Cambodia,Annual average inflation (consumer prices) rate,2021,2.9,AS
+4152,China,Annual average inflation (consumer prices) rate,2021,0.9,AS
 4159,Cyprus,Annual average inflation (consumer prices) rate,2021,2.2,AS
 4179,Georgia,Annual average inflation (consumer prices) rate,2021,9.6,AS
 4193,India,Annual average inflation (consumer prices) rate,2021,5.5,AS
@@ -864,6 +886,7 @@
 4326,Bangladesh,Annual average inflation (consumer prices) rate,2022,6.1,AS
 4332,Bhutan,Annual average inflation (consumer prices) rate,2022,5.9,AS
 4342,Cambodia,Annual average inflation (consumer prices) rate,2022,5.3,AS
+4348,China,Annual average inflation (consumer prices) rate,2022,1.9,AS
 4355,Cyprus,Annual average inflation (consumer prices) rate,2022,8.1,AS
 4375,Georgia,Annual average inflation (consumer prices) rate,2022,11.9,AS
 4389,India,Annual average inflation (consumer prices) rate,2022,6.7,AS
