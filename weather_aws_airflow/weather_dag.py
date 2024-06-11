@@ -31,7 +31,7 @@ def guardar_datos_en_csv(df, nombre_archivo):
     df.to_csv(nombre_archivo, index=False)
 
 def ejecutar_script(**kwargs):
-    clave_api = 'b61191a65bdec93a25b88dcffb181182'
+    clave_api = 'my_key_api'
     ciudad_buenos_aires = 'Buenos Aires, AR'
     fecha_inicio = datetime(2024, 2, 27)
     datos_temperatura = obtener_datos_temperatura(clave_api, ciudad_buenos_aires, fecha_inicio, dias=7)

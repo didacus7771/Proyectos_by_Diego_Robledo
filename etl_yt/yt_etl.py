@@ -19,7 +19,7 @@ import s3fs
 
 # Configurar la clave de API de Youtube
 
-api_key = 'AIzaSyBcrB9i03XVofwqyYoN5H0MB58qmNuQ2wA'
+api_key = 'my_key_api'
 
 # Funcion para obtener todos los comentarios de un video
 
