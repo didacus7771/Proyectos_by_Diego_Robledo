@@ -1,0 +1,23 @@
+# Proyecto 4: pronóstico de inflación mensual en Argentina (IPC INDEC)
+# Probado con Python 3.12.10 en Windows (8 procesadores)
+#
+# Instalación (en un entorno virtual limpio):
+#   python -m venv .venv
+#   .venv\Scripts\activate          (Windows)   |   source .venv/bin/activate   (Linux/macOS)
+#   pip install -r requirements.txt
+
+# --- En uso desde la Fase 1: ingesta, limpieza y análisis exploratorio ---
+pandas==3.1.1
+numpy==2.5.4
+matplotlib==3.11.2
+statsmodels==0.15.0
+ipykernel==7.4.0             # para ejecutar los notebooks en VS Code
+
+# --- Fases 2 a 4: modelado y validación ---
+scikit-learn==1.9.1          # gradient boosting global y métricas
+scipy==1.18.1                # lo importa src/evaluacion.py
+
+# --- Fase 5: seguimiento de experimentos y base de datos ---
+mlflow==3.18.0
+sqlalchemy==2.0.57           # carga a PostgreSQL (src/cargar_postgres.py)
+psycopg2-binary==2.9.13      # controlador de PostgreSQL

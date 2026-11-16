@@ -1,0 +1,11 @@
+modelo,fase_origen,tipo,principal
+arima_d0,3A,estadistico,False
+arima_d1,3A,estadistico,False
+ets_amortiguado,3A,estadistico,False
+ets_simple,3A,estadistico,False
+gb_base,3B,boosting_global,True
+gb_complejo,3B,boosting_global,False
+gb_simple,3B,boosting_global,False
+ingenuo,2,baseline,True
+media_12m,2,baseline,False
+media_3m,2,baseline,False

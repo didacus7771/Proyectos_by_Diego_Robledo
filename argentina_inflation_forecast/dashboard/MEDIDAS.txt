@@ -1,0 +1,394 @@
+MEDIDAS Y GUÍA DEL PROYECTO DE POWER BI (inflation_forecast.pbip)
+==================================================================
+Para: Diego. Generado por Claude Code en la Fase 5b-pbip. Texto plano en español.
+
+1. QUÉ ES ESTO
+------------------------------------------------------------------
+Es un BORRADOR del dashboard del proyecto de pronóstico de inflación mensual argentina
+(IPC INDEC), escrito como proyecto de Power BI (.pbip: archivos de texto) en
+dashboard/pbip/. Claude Code no pudo abrir Power BI Desktop: la estructura se
+verificó solo con scripts (JSON válido, referencias cruzadas y esquemas oficiales de
+Microsoft). Nadie vio todavía el resultado en pantalla. Lo abres tú, lo revisas y
+corriges lo visual.
+
+Contiene: modelo semántico en formato TMDL con 3 tablas nuevas (dim_horizonte,
+dim_regimen y Medidas), 11 relaciones nuevas y 26 medidas; informe en formato PBIR con
+4 páginas de 1280 x 720. Las 7 tablas y sus consultas a PostgreSQL son las que dejaste
+tú en dashboard/pbip_base/ (no se tocaron). Las tablas conservan el prefijo "inflacion "
+(por ejemplo 'inflacion vw_evaluacion'), tal como las nombró Power BI.
+
+1.1 Cómo abrirlo
+  1. Abre dashboard/pbip/inflation_forecast.pbip con Power BI Desktop. Si pide habilitar
+     algo (por ejemplo la vista previa de proyectos), acéptalo.
+  2. Pulsa Actualizar y escribe las credenciales de PostgreSQL (servidor localhost:5433,
+     base inflacion_arg; usuario y contraseña de tu .env). La caché de datos no se incluyó.
+     El contenedor de Docker tiene que estar encendido.
+  3. Comprueba que las 7 tablas cargan sin error y que aparecen las tablas dim_horizonte,
+     dim_regimen y Medidas.
+  4. Compara las medidas con los valores de control de la sección 3.
+  5. Corrige lo visual y guarda como dashboard/inflation_forecast.pbix.
+  6. Exporta el PDF y las capturas (una por página).
+  Si Desktop no abre el proyecto o muestra un error, copia el mensaje exacto: es la
+  información que necesito para corregirlo.
+
+1.2 Qué dejó Claude Code sin hacer (lo agregas tú, a mano)
+  - Barras de error del gráfico de la página 1: panel Análisis > Barras de error, con
+    [IC 95 % inferior (pp)] y [IC 95 % superior (pp)]. Línea de referencia en 0 (Análisis >
+    Línea constante del eje X).
+  - Formato condicional de color por veredicto: Formato > Colores > fx > Valor de campo >
+    [Color veredicto]. La medida ya existe.
+  - Selección predeterminada de segmentadores, marcadores y navegación entre páginas.
+  - Colores de las series de la página 3 y títulos de ejes: quedaron por defecto (no había
+    ejemplos de esas propiedades en tu proyecto de referencia). Los títulos de los visuales
+    sí indican la unidad (pp o % mensual).
+  - El tema/colores generales: queda el tema Fluent2 que generó Desktop. Las medidas
+    usan la paleta #D55E00 (empeora) y #0072B2 (indistinguible).
+  - Los formatos de los cuadros de texto, segmentadores y títulos se escribieron según
+    los esquemas oficiales; si alguno no se ve bien al abrir, ajústalo a mano.
+
+2. PÁGINAS, VISUALES Y MEDIDAS
+------------------------------------------------------------------
+
+PÁGINA: Resultado   (1280 x 720)
+  Visuales (en el orden de apilado):
+   - Cuadro de texto
+        Ningún modelo le gana al pronóstico ingenuo
+   - Cuadro de texto
+        Error medio en puntos porcentuales, ventana móvil, IPC INDEC
+   - Segmentador «Horizonte (meses)»
+        Values: dim_horizonte[horizonte]
+   - Tarjeta
+        Values: [MAE ingenuo h=1 (pp)]
+   - Tarjeta
+        Values: [MAE ingenuo h=3 (pp)]
+   - Tarjeta
+        Values: [MAE ingenuo h=6 (pp)]
+   - Barras horizontales «Diferencia de error contra el ingenuo por modelo (pp)»
+        Category: inflacion modelos[modelo]
+        Y: [Diferencia vs ingenuo (pp)]
+        Tooltips: [IC 95 % inferior (pp)], [IC 95 % superior (pp)], [Veredicto], [MAE del modelo (pp)]
+   - Cuadro de texto
+        Modelos principales (fijados de antemano): ingenuo y gb_base; el resto es exploratorio. Barras de error = intervalo de 95 % (bootstrap de bloques).
+
+  Medidas de la carpeta "1 Resultado":
+
+  * MAE ingenuo h=1 (pp)
+      Carpeta: 1 Resultado | Formato: 0.000
+      Para qué sirve: Error absoluto medio (MAE) del pronóstico ingenuo (repetir el último valor observado) a 1 mes, régimen total, en puntos porcentuales de inflación mensual. No depende del segmentador de horizonte ni de modelo.
+      Tablas y columnas: inflacion vw_evaluacion[mae_ingenuo]; inflacion vw_evaluacion[horizonte]; inflacion vw_evaluacion[regimen_origen]; tabla inflacion modelos (filtro); tabla dim_horizonte (filtro)
+      DAX: CALCULATE(MAX('inflacion vw_evaluacion'[mae_ingenuo]), REMOVEFILTERS('inflacion modelos'), REMOVEFILTERS(dim_horizonte), 'inflacion vw_evaluacion'[horizonte] = "1", 'inflacion vw_evaluacion'[regimen_origen] = "total")
+      Valor de control: 1,148
+
+  * MAE ingenuo h=3 (pp)
+      Carpeta: 1 Resultado | Formato: 0.000
+      Para qué sirve: MAE del pronóstico ingenuo a 3 meses, régimen total, en puntos porcentuales. No depende del segmentador.
+      Tablas y columnas: inflacion vw_evaluacion[mae_ingenuo]; inflacion vw_evaluacion[horizonte]; inflacion vw_evaluacion[regimen_origen]; tabla inflacion modelos (filtro); tabla dim_horizonte (filtro)
+      DAX: CALCULATE(MAX('inflacion vw_evaluacion'[mae_ingenuo]), REMOVEFILTERS('inflacion modelos'), REMOVEFILTERS(dim_horizonte), 'inflacion vw_evaluacion'[horizonte] = "3", 'inflacion vw_evaluacion'[regimen_origen] = "total")
+      Valor de control: 1,890
+
+  * MAE ingenuo h=6 (pp)
+      Carpeta: 1 Resultado | Formato: 0.000
+      Para qué sirve: MAE del pronóstico ingenuo a 6 meses, régimen total, en puntos porcentuales. No depende del segmentador.
+      Tablas y columnas: inflacion vw_evaluacion[mae_ingenuo]; inflacion vw_evaluacion[horizonte]; inflacion vw_evaluacion[regimen_origen]; tabla inflacion modelos (filtro); tabla dim_horizonte (filtro)
+      DAX: CALCULATE(MAX('inflacion vw_evaluacion'[mae_ingenuo]), REMOVEFILTERS('inflacion modelos'), REMOVEFILTERS(dim_horizonte), 'inflacion vw_evaluacion'[horizonte] = "6", 'inflacion vw_evaluacion'[regimen_origen] = "total")
+      Valor de control: 2,558
+
+  * MAE del modelo (pp)
+      Carpeta: 1 Resultado | Formato: 0.000
+      Para qué sirve: MAE de cada modelo en el horizonte elegido en el segmentador, régimen total, en puntos porcentuales. Vacío si no hay un solo horizonte seleccionado.
+      Tablas y columnas: dim_horizonte[horizonte]; inflacion vw_evaluacion[mae]; inflacion vw_evaluacion[regimen_origen]
+      DAX: IF(HASONEVALUE(dim_horizonte[horizonte]), CALCULATE(MAX('inflacion vw_evaluacion'[mae]), 'inflacion vw_evaluacion'[regimen_origen] = "total"))
+      Valor de control: gb_base, h=3: 2,620 (recalculado desde vw_evaluacion.csv; no figura en el prompt)
+
+  * Diferencia vs ingenuo (pp)
+      Carpeta: 1 Resultado | Formato: 0.000
+      Para qué sirve: MAE del modelo menos MAE del ingenuo (puntos porcentuales) en el horizonte elegido, régimen total. Positivo = el modelo se equivoca más que el ingenuo.
+      Tablas y columnas: dim_horizonte[horizonte]; inflacion vw_evaluacion[dif_mae]; inflacion vw_evaluacion[regimen_origen]
+      DAX: IF(HASONEVALUE(dim_horizonte[horizonte]), CALCULATE(MAX('inflacion vw_evaluacion'[dif_mae]), 'inflacion vw_evaluacion'[regimen_origen] = "total"))
+      Valor de control: gb_base, h=3: 0,730 (IC 95 % 0,195 a 1,471; veredicto empeora)
+
+  * IC 95 % inferior (pp)
+      Carpeta: 1 Resultado | Formato: 0.000
+      Para qué sirve: Límite inferior del intervalo de 95 % (bootstrap de bloques) de la diferencia de MAE contra el ingenuo, en puntos porcentuales.
+      Tablas y columnas: dim_horizonte[horizonte]; inflacion vw_evaluacion[ic95_inf]; inflacion vw_evaluacion[regimen_origen]
+      DAX: IF(HASONEVALUE(dim_horizonte[horizonte]), CALCULATE(MAX('inflacion vw_evaluacion'[ic95_inf]), 'inflacion vw_evaluacion'[regimen_origen] = "total"))
+      Valor de control: gb_base, h=3: 0,195
+
+  * IC 95 % superior (pp)
+      Carpeta: 1 Resultado | Formato: 0.000
+      Para qué sirve: Límite superior del intervalo de 95 % (bootstrap de bloques) de la diferencia de MAE contra el ingenuo, en puntos porcentuales.
+      Tablas y columnas: dim_horizonte[horizonte]; inflacion vw_evaluacion[ic95_sup]; inflacion vw_evaluacion[regimen_origen]
+      DAX: IF(HASONEVALUE(dim_horizonte[horizonte]), CALCULATE(MAX('inflacion vw_evaluacion'[ic95_sup]), 'inflacion vw_evaluacion'[regimen_origen] = "total"))
+      Valor de control: gb_base, h=3: 1,471
+
+  * Veredicto
+      Carpeta: 1 Resultado | Formato: (general)
+      Para qué sirve: Veredicto del modelo contra el ingenuo según el intervalo de 95 %: mejora, empeora o indistinguible. Vacío si no hay un solo horizonte seleccionado.
+      Tablas y columnas: dim_horizonte[horizonte]; inflacion vw_evaluacion[veredicto]; inflacion vw_evaluacion[regimen_origen]
+      DAX: IF(HASONEVALUE(dim_horizonte[horizonte]), CALCULATE(SELECTEDVALUE('inflacion vw_evaluacion'[veredicto]), 'inflacion vw_evaluacion'[regimen_origen] = "total"))
+      Valor de control: gb_base, h=3: empeora (h=1 y h=6: indistinguible)
+
+  * Color veredicto
+      Carpeta: 1 Resultado | Formato: (general)
+      Para qué sirve: Código de color (hexadecimal) según el veredicto, para usar en formato condicional por valor de campo.
+      Tablas y columnas: (medida) [Veredicto]
+      DAX: SWITCH([Veredicto], "empeora", "#D55E00", "indistinguible", "#0072B2", "mejora", "#009E73", "#999999")
+      Valor de control: empeora = #D55E00; indistinguible = #0072B2; mejora = #009E73; otro = #999999
+
+PÁGINA: Dónde falla el ingenuo   (1280 x 720)
+  Visuales (en el orden de apilado):
+   - Cuadro de texto
+        El error se concentra en el régimen de inflación alta
+   - Segmentador «Horizonte (meses)»
+        Values: dim_horizonte[horizonte]
+   - Columnas «Parte del error absoluto del ingenuo por régimen (%)»
+        Category: dim_regimen[regimen_origen]
+        Y: [% del error del ingenuo]
+   - Tarjeta
+        Values: [% acumulado de los 6 peores orígenes (h=1)]
+   - Matriz «Error absoluto del ingenuo por horizonte y régimen (pp)»
+        Rows: dim_horizonte[horizonte], dim_regimen[regimen_origen]
+        Values: [Mediana del error del ingenuo (pp)], [P80 del error del ingenuo (pp)], [P90 del error del ingenuo (pp)], [Orígenes evaluados]
+
+  Medidas de la carpeta "2 Dónde falla el ingenuo":
+
+  * Error absoluto total del ingenuo (pp)
+      Carpeta: 2 Dónde falla el ingenuo | Formato: 0.000
+      Para qué sirve: Suma de los errores absolutos del pronóstico ingenuo (puntos porcentuales) bajo los filtros de horizonte y régimen vigentes.
+      Tablas y columnas: inflacion vw_pronosticos[error_abs]; inflacion vw_pronosticos[modelo]; tabla inflacion modelos (filtro)
+      DAX: CALCULATE(SUM('inflacion vw_pronosticos'[error_abs]), REMOVEFILTERS('inflacion modelos'), 'inflacion vw_pronosticos'[modelo] = "ingenuo")
+      Valor de control: sin valor de control propio (es la base de '% del error del ingenuo')
+
+  * % del error del ingenuo
+      Carpeta: 2 Dónde falla el ingenuo | Formato: 0.0%
+      Para qué sirve: Parte del error absoluto total del ingenuo que cae en cada régimen de inflación, para el horizonte elegido.
+      Tablas y columnas: (medida) [Error absoluto total del ingenuo (pp)]; tabla dim_regimen (filtro)
+      DAX: DIVIDE([Error absoluto total del ingenuo (pp)], CALCULATE([Error absoluto total del ingenuo (pp)], REMOVEFILTERS(dim_regimen)))
+      Valor de control: régimen alta: 59,6 % / 62,3 % / 62,4 % (h=1 / 3 / 6)
+
+  * Orígenes evaluados
+      Carpeta: 2 Dónde falla el ingenuo | Formato: 0
+      Para qué sirve: Cantidad de orígenes de pronóstico evaluados para el ingenuo bajo los filtros vigentes.
+      Tablas y columnas: inflacion vw_pronosticos[modelo]; tabla inflacion vw_pronosticos (filtro); tabla inflacion modelos (filtro)
+      DAX: CALCULATE(COUNTROWS('inflacion vw_pronosticos'), REMOVEFILTERS('inflacion modelos'), 'inflacion vw_pronosticos'[modelo] = "ingenuo")
+      Valor de control: 81 / 79 / 76 (h=1 / 3 / 6; recalculado desde vw_pronosticos.csv; no figura en el prompt)
+
+  * Mediana del error del ingenuo (pp)
+      Carpeta: 2 Dónde falla el ingenuo | Formato: 0.00
+      Para qué sirve: Mediana (cuantil 50 %) del error absoluto del ingenuo, en puntos porcentuales, por horizonte y régimen.
+      Tablas y columnas: inflacion vw_error_ingenuo[q50]
+      DAX: MAX('inflacion vw_error_ingenuo'[q50])
+      Valor de control: alta h=1: 2,00; baja h=1: 0,30
+
+  * P80 del error del ingenuo (pp)
+      Carpeta: 2 Dónde falla el ingenuo | Formato: 0.00
+      Para qué sirve: Percentil 80 del error absoluto del ingenuo, en puntos porcentuales, por horizonte y régimen.
+      Tablas y columnas: inflacion vw_error_ingenuo[q80]
+      DAX: MAX('inflacion vw_error_ingenuo'[q80])
+      Valor de control: alta h=1: 4,78 (recalculado desde vw_error_ingenuo.csv; no figura en el prompt)
+
+  * P90 del error del ingenuo (pp)
+      Carpeta: 2 Dónde falla el ingenuo | Formato: 0.00
+      Para qué sirve: Percentil 90 del error absoluto del ingenuo, en puntos porcentuales, por horizonte y régimen.
+      Tablas y columnas: inflacion vw_error_ingenuo[q90]
+      DAX: MAX('inflacion vw_error_ingenuo'[q90])
+      Valor de control: alta h=1: 6,49; baja h=1: 1,30
+
+  * % acumulado de los 6 peores orígenes (h=1)
+      Carpeta: 2 Dónde falla el ingenuo | Formato: 0.0%
+      Para qué sirve: Parte del error absoluto total del ingenuo a 1 mes que concentran sus 6 peores orígenes.
+      Tablas y columnas: inflacion vw_pronosticos[modelo]; inflacion vw_pronosticos[horizonte]; inflacion vw_pronosticos[error_abs]; tabla inflacion vw_pronosticos (filtro)
+      DAX: VAR t = FILTER(ALL('inflacion vw_pronosticos'), 'inflacion vw_pronosticos'[modelo] = "ingenuo" && 'inflacion vw_pronosticos'[horizonte] = "1") VAR top6 = TOPN(6, t, 'inflacion vw_pronosticos'[error_abs], DESC) RETURN DIVIDE(SUMX(top6, 'inflacion vw_pronosticos'[error_abs]), SUMX(t, 'inflacion vw_pronosticos'[error_abs]))
+      Valor de control: 43,2 %
+
+PÁGINA: Real vs pronóstico   (1280 x 720)
+  Visuales (en el orden de apilado):
+   - Cuadro de texto
+        Los saltos de 2023 dominan el error
+   - Segmentador «Horizonte (meses)»
+        Values: dim_horizonte[horizonte]
+   - Segmentador «Modelo»
+        Values: inflacion modelos[modelo]
+   - Líneas «Inflación real y pronósticos por fecha objetivo (% mensual)»
+        Category: inflacion vw_pronosticos[fecha_objetivo]
+        Y: [Inflación real (% mensual)], [Pronóstico ingenuo (% mensual)], [Pronóstico del modelo elegido (% mensual)]
+   - Cuadro de texto
+        Los saltos de agosto y diciembre de 2023 coinciden con devaluaciones; la sensibilidad sin esos meses no cambia las conclusiones (página 4).
+
+  Medidas de la carpeta "3 Real vs pronóstico":
+
+  * Inflación real (% mensual)
+      Carpeta: 3 Real vs pronóstico | Formato: 0.00
+      Para qué sirve: Inflación mensual observada (INDEC), en % mensual, en la fecha objetivo.
+      Tablas y columnas: inflacion vw_pronosticos[y_real]
+      DAX: AVERAGE('inflacion vw_pronosticos'[y_real])
+      Valor de control: sin valor de control en el prompt; la serie debe llegar a 25,5 % en dic 2023 (dato del CLAUDE.md del proyecto)
+
+  * Pronóstico ingenuo (% mensual)
+      Carpeta: 3 Real vs pronóstico | Formato: 0.00
+      Para qué sirve: Pronóstico del método ingenuo (último valor observado) para la fecha objetivo, en % mensual.
+      Tablas y columnas: inflacion vw_pronosticos[y_pred]; inflacion vw_pronosticos[modelo]; tabla inflacion modelos (filtro)
+      DAX: CALCULATE(AVERAGE('inflacion vw_pronosticos'[y_pred]), REMOVEFILTERS('inflacion modelos'), 'inflacion vw_pronosticos'[modelo] = "ingenuo")
+      Valor de control: sin valor de control en el prompt (comprobar que a h=1 repite la inflación real del mes anterior)
+
+  * Pronóstico del modelo elegido (% mensual)
+      Carpeta: 3 Real vs pronóstico | Formato: 0.00
+      Para qué sirve: Pronóstico del modelo seleccionado, en % mensual. Vacío si no hay un solo modelo seleccionado.
+      Tablas y columnas: inflacion modelos[modelo]; inflacion vw_pronosticos[y_pred]
+      DAX: IF(HASONEVALUE('inflacion modelos'[modelo]), AVERAGE('inflacion vw_pronosticos'[y_pred]))
+      Valor de control: sin valor de control en el prompt (necesita un solo modelo seleccionado)
+
+  * Error absoluto del modelo elegido (pp)
+      Carpeta: 3 Real vs pronóstico | Formato: 0.00
+      Para qué sirve: Error absoluto del modelo seleccionado, en puntos porcentuales. Vacío si no hay un solo modelo seleccionado.
+      Tablas y columnas: inflacion modelos[modelo]; inflacion vw_pronosticos[error_abs]
+      DAX: IF(HASONEVALUE('inflacion modelos'[modelo]), AVERAGE('inflacion vw_pronosticos'[error_abs]))
+      Valor de control: sin valor de control en el prompt (no la usa ningún visual; queda disponible)
+
+PÁGINA: Panel y límites   (1280 x 720)
+  Visuales (en el orden de apilado):
+   - Cuadro de texto
+        El modelo global ayuda a 1 mes, no a 3 ni a 6
+   - Segmentador «Horizonte (meses)»
+        Values: dim_horizonte[horizonte]
+   - Matriz «Panel de 126 series: error relativo al ingenuo»
+        Rows: inflacion modelos[modelo]
+        Values: [Razón de error agregada (panel)], [% de series que mejoran al ingenuo], [Series del panel]
+   - Matriz «Sensibilidad y prueba de Diebold-Mariano»
+        Rows: inflacion modelos[modelo]
+        Values: [Dif. MAE completo (pp)], [Dif. MAE sin salto 2023 (pp)], [p-valor Diebold-Mariano]
+   - Cuadro de texto
+        Límites / Unas 117 observaciones mensuales por serie. Régimen alto = 18 orígenes en dos episodios. Sin variables exógenas. Sin corrección por comparaciones múltiples. Sin intervalo de incertidumbre para el panel de 126 series. Resultados de boosting obtenidos en un equipo concreto (versiones en el README).
+
+  Medidas de la carpeta "4 Panel y límites":
+
+  * Razón de error agregada (panel)
+      Carpeta: 4 Panel y límites | Formato: 0.000
+      Para qué sirve: Razón entre el error del modelo y el del ingenuo agregada sobre el panel de 126 series. Menor que 1 = el modelo mejora al ingenuo.
+      Tablas y columnas: inflacion evaluacion_panel_distribucion[razon_agregada]
+      DAX: MAX('inflacion evaluacion_panel_distribucion'[razon_agregada])
+      Valor de control: gb_base: 0,898 / 1,063 / 1,011 (h=1 / 3 / 6)
+
+  * % de series que mejoran al ingenuo
+      Carpeta: 4 Panel y límites | Formato: 0.0%
+      Para qué sirve: Porcentaje de las series del panel en que el modelo tiene menor error que el ingenuo.
+      Tablas y columnas: inflacion evaluacion_panel_distribucion[pct_series_mejor]
+      DAX: MAX('inflacion evaluacion_panel_distribucion'[pct_series_mejor]) / 100
+      Valor de control: gb_base: 63,5 % / 27,0 % / 38,1 % (h=1 / 3 / 6)
+
+  * Series del panel
+      Carpeta: 4 Panel y límites | Formato: 0
+      Para qué sirve: Cantidad de series del panel evaluadas.
+      Tablas y columnas: inflacion evaluacion_panel_distribucion[series]
+      DAX: MAX('inflacion evaluacion_panel_distribucion'[series])
+      Valor de control: 126
+
+  * Dif. MAE completo (pp)
+      Carpeta: 4 Panel y límites | Formato: 0.000
+      Para qué sirve: Diferencia de MAE contra el ingenuo con la muestra completa, en puntos porcentuales (análisis de sensibilidad).
+      Tablas y columnas: inflacion evaluacion_sensibilidad[dif_mae]; inflacion evaluacion_sensibilidad[muestra]
+      DAX: CALCULATE(MAX('inflacion evaluacion_sensibilidad'[dif_mae]), 'inflacion evaluacion_sensibilidad'[muestra] = "completo")
+      Valor de control: gb_base, h=3: 0,730 (recalculado desde evaluacion_sensibilidad.csv)
+
+  * Dif. MAE sin salto 2023 (pp)
+      Carpeta: 4 Panel y límites | Formato: 0.000
+      Para qué sirve: Diferencia de MAE contra el ingenuo excluyendo los meses del salto de 2023, en puntos porcentuales.
+      Tablas y columnas: inflacion evaluacion_sensibilidad[dif_mae]; inflacion evaluacion_sensibilidad[muestra]
+      DAX: CALCULATE(MAX('inflacion evaluacion_sensibilidad'[dif_mae]), 'inflacion evaluacion_sensibilidad'[muestra] = "sin_salto_2023")
+      Valor de control: gb_base, h=3: 0,737 (recalculado desde evaluacion_sensibilidad.csv)
+
+  * p-valor Diebold-Mariano
+      Carpeta: 4 Panel y límites | Formato: 0.000
+      Para qué sirve: p-valor de la prueba de Diebold-Mariano contra el ingenuo (error total), por modelo y horizonte.
+      Tablas y columnas: inflacion evaluacion_dm_total[p_valor]
+      DAX: MAX('inflacion evaluacion_dm_total'[p_valor])
+      Valor de control: gb_base, h=3: 0,037
+
+3. VALORES DE CONTROL (seleccionando el segmentador de horizonte que se indica)
+------------------------------------------------------------------
+Los valores marcados "prompt" vienen del prompt de la fase y de los resultados aceptados
+de las fases 4 y 5a. Los marcados "CSV" los recalculó Claude Code con pandas desde
+dashboard/datos/*.csv (reproduciendo la lógica de cada medida); NO se calcularon en DAX.
+
+  MAE ingenuo h=1 / h=3 / h=6 (pp)                1,148 / 1,890 / 2,558            (prompt)
+  Diferencia vs ingenuo, gb_base, h=3 (pp)        0,730 (IC 95 % 0,195 a 1,471; empeora)  (prompt)
+  % del error del ingenuo, régimen alta           59,6 % / 62,3 % / 62,4 % (h=1/3/6)   (prompt)
+  % acumulado de los 6 peores orígenes h=1        43,2 %                           (prompt)
+  Mediana / P90 del error del ingenuo, alta h=1   2,00 / 6,49 (baja h=1: 0,30 / 1,30)  (prompt)
+  Razón de error agregada, gb_base, h=1/3/6       0,898 / 1,063 / 1,011            (prompt)
+  % de series que mejoran, gb_base, h=1/3/6       63,5 % / 27,0 % / 38,1 %         (prompt)
+  p-valor Diebold-Mariano, gb_base, h=3           0,037                            (prompt)
+  Orígenes evaluados del ingenuo, h=1/3/6         81 / 79 / 76                     (CSV)
+  MAE del modelo, gb_base, h=3 (pp)               2,620                            (CSV)
+  P80 del error del ingenuo, alta h=1             4,78                             (CSV)
+  Dif. MAE completo / sin salto 2023, gb_base h=3 0,730 / 0,737                    (CSV)
+
+4. NOTAS DE USO
+------------------------------------------------------------------
+  - Las medidas con IF(HASONEVALUE(...)) devuelven vacío si no hay un solo horizonte
+    seleccionado en el segmentador: MAE del modelo, Diferencia vs ingenuo, IC 95 %
+    inferior y superior, y Veredicto (y por eso Color veredicto). El gráfico de barras de
+    la página 1 queda vacío hasta que elijas un horizonte.
+  - "Pronóstico del modelo elegido" y "Error absoluto del modelo elegido" necesitan un
+    solo modelo seleccionado en el segmentador de modelo (página 3).
+  - Tras abrir el proyecto hay que pulsar Actualizar (la caché de datos no se incluyó) e
+    ingresar las credenciales de PostgreSQL.
+  - La fila "total" de dim_regimen no tiene datos en vw_pronosticos (que solo tiene
+    baja, media y alta): "% del error del ingenuo" y "Orígenes evaluados" salen vacíos
+    para "total"; las medidas de vw_error_ingenuo y vw_evaluacion sí tienen fila total.
+  - Las medidas usadas por ningún visual: "Color veredicto" (la aplicas tú con formato
+    condicional), "Error absoluto total del ingenuo (pp)" (auxiliar de "% del error del
+    ingenuo") y "Error absoluto del modelo elegido (pp)" (disponible por si la quieres).
+  - Servidor y base de datos del modelo: localhost:5433 / inflacion_arg (ya figuran en las
+    consultas del modelo). Este archivo no contiene contraseñas.
+
+----------------------------------------------------------------------------------
+CAMBIOS POSTERIORES HECHOS EN POWER BI DESKTOP (2026-11-15)
+----------------------------------------------------------------------------------
+Este archivo se escribió junto con el proyecto .pbip. Después, Diego abrió el proyecto en
+Power BI Desktop, hizo los ajustes de abajo y guardó el resultado como
+dashboard/inflation_forecast.pbix. Si algo difiere de lo descrito más arriba, manda el
+.pbix. La carpeta dashboard/pbip/ NO se publica porque puede no reflejar estos cambios.
+
+1. Columna calculada "Nombre del modelo" en la tabla 'inflacion modelos' (nombres legibles
+   para ejes, segmentadores y matrices; los visuales usan esta columna en lugar de
+   [modelo]):
+     Nombre del modelo =
+     SWITCH('inflacion modelos'[modelo],
+       "arima_d0", "ARIMA (d=0)",
+       "arima_d1", "ARIMA (d=1)",
+       "ets_simple", "ETS simple",
+       "ets_amortiguado", "ETS amortiguado",
+       "media_3m", "Promedio 3 meses",
+       "media_12m", "Promedio 12 meses",
+       "gb_base", "Boosting base (principal)",
+       "gb_simple", "Boosting simple",
+       "gb_complejo", "Boosting complejo",
+       "ingenuo", "Ingenuo (mes anterior)",
+       'inflacion modelos'[modelo])
+2. Medida "p-valor DM (texto)" (página 4): muestra "<0,001" cuando el p-valor es menor
+   que 0,001 y usa coma decimal. Devuelve texto, por eso no sirve para ordenar ni para
+   gráficos. La medida numérica original no se modificó:
+     p-valor DM (texto) =
+     VAR p = [p-valor Diebold-Mariano]
+     RETURN IF(ISBLANK(p), BLANK(), IF(p < 0.001, "<0,001", FORMAT(p, "0.000", "es-AR")))
+3. Barras de error del intervalo de confianza del 95 % en el gráfico de barras de la
+   página 1 (panel Análisis de Power BI Desktop: tipo "Por campo", relación "Absoluta",
+   sin "Convertir en simétrico"; límite superior = IC 95 % superior (pp), límite
+   inferior = IC 95 % inferior (pp)) y una línea constante en 0.
+4. Cambios de presentación: cuadros de texto "Cómo leerlo" y "Límites"; títulos finales
+   de página (1 "Ningún modelo le gana al pronóstico ingenuo"; 2 "El error se concentra
+   en el régimen de inflación alta"; 3 "Los saltos de 2023 concentran más de un tercio
+   del error del ingenuo a 1 mes"; 4 "Panel de 126 series: mejora solo a 1 mes"); matriz
+   de la página 2 sin totales ni subtotales; etiquetas de datos del gráfico de la
+   página 1 desactivadas; títulos de ejes de la página 3; selecciones de segmentadores
+   en el PDF: página 1 h=3, página 2 h=1, página 3 h=1 con Boosting base (principal),
+   página 4 h=1.
+5. Las medidas "Error absoluto del modelo elegido (pp)" y "Color veredicto" existen en el
+   modelo pero ningún visual las usa.
+6. El texto de la página 3 menciona que los 6 meses de agosto de 2023 a enero de 2024
+   concentran cerca de un tercio del error del ingenuo (35 % a 1 mes y 26 % a 3 meses).
+   Esas dos cifras no las calcula ninguna medida del dashboard; se verifican en la
+   parte C de la Fase 5c a partir de vw_pronosticos.csv.
+----------------------------------------------------------------------------------
+CORRECCION (2026-11-15, Fase 5c correccion): el subtitulo de la pagina 1 dice "origen movil" en lugar de "ventana movil"; el backtest usa origen movil con ventana creciente (ventana inicial de 36 meses). Se actualizaron el .pbix, el PDF y la captura 1_resultado.png.

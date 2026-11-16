@@ -1,0 +1,29 @@
+# Base PostgreSQL local para el proyecto de pronóstico de inflación (Fase 5a).
+# Propia de este proyecto: nombre de contenedor, volumen y puerto distintos a los de otros
+# proyectos. Las credenciales NO están aquí: se leen del archivo .env (copiar .env.example
+# a .env y elegir una contraseña; .env no se versiona).
+#
+#   docker compose up -d      levantar
+#   docker compose ps         ver estado (debe aparecer "healthy")
+#   docker compose down       apagar (los datos quedan en el volumen)
+name: inflacion-arg
+services:
+  db:
+    image: postgres:16
+    container_name: inflacion_arg_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?definir POSTGRES_USER en .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?definir POSTGRES_PASSWORD en .env}
+      POSTGRES_DB: ${POSTGRES_DB:?definir POSTGRES_DB en .env}
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-5433}:5432"
+    volumes:
+      - inflacion_arg_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+volumes:
+  inflacion_arg_pgdata:
